@@ -1,0 +1,31 @@
+AUTO
+
+transd, Cosine Similarity 
+Method 1 K1  score: 11208.0
+Method 1 K2  score: 11208.0
+Method 1 K3  score: 11208.0
+Method 1 K4  score: 11208.0
+Method 1 K5  score: 11196.0
+Method 1 K6  score: 9852.0
+Method 2 K1  score: 10378.56080556523
+Method 2 K2  score: 10377.685386947245
+Method 2 K3  score: 10377.457469992203
+Method 2 K4  score: 10377.41697882784
+Method 2 K5  score: 10360.591038752098
+Method 2 K6  score: 9254.070949441273
+
+
+transd, Euclidean Similarity
+
+Method 1 K1  score: 11208.0
+Method 1 K2  score: 11208.0
+Method 1 K3  score: 11208.0
+Method 1 K4  score: 11208.0
+Method 1 K5  score: 11196.0
+Method 1 K6  score: 9852.0
+Method 2 K1  score: 7848.942196734181
+Method 2 K2  score: 7848.573805831703
+Method 2 K3  score: 7847.9074870108625
+Method 2 K4  score: 7846.398854504369
+Method 2 K5  score: 7834.316970731991
+Method 2 K6  score: 6889.4593832328255

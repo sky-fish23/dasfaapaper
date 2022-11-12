@@ -1,0 +1,734 @@
+aOntology	is subclass of	what has status of only xsd:string
+usesOntology	has domain in	Project
+OntologyEngineeringTool	is subclass of	what has description of only xsd:string
+GeneralPublicLicense_GPL	is an instance of	LicenseModel
+ViewGenerationEngine	is subclass of	what has acronym of at most one rdfs:Literal
+numberOfAxioms	has domain in	aOntology
+Jena-ARQ	supportd	view definition language ARQ-Language
+OntologyType	is subclass of	what is definedBy of only Party
+One_to_one_mapping	is subclass of	rdfs:Resource
+ViewDefinitionLanguage	is subclass of	what has acronym of only xsd:string
+aOntology	is subclass of	what isVersionOfVirtualOntology of exactly one owl:Thing
+hasCreator	has domain in	aOntology
+context	range in	rdfs:Literal
+isManual	range in	xsd:boolean
+Location	is subclass of	what has city of at most one rdfs:Literal
+VirtualView	is subclass of	VirtualOntology
+aOntology	is subclass of	what has numberOfClasses of exactly one rdfs:Literal
+virtualViewOf	has domain in	VirtualView
+version	range in	xsd:string
+aOntology	is subclass of	what isOfType of only OntologyType
+Organisation	is subclass of	what has name of exactly one rdfs:Literal
+aOntology	is subclass of	what has URI of exactly one rdfs:Literal
+OntologyEngineeringMethodology	is subclass of	what has description of only xsd:string
+Mapping_Metadata	is subclass of	rdfs:Resource
+developedBy	has domain in	OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax
+classesWithNoAuthor	has domain in	aOntology
+viewDefinition	range in	xsd:string
+Jena-ARQ	supportd	view definition language  RDQL
+aOntology	is subclass of	owl:Thing
+Protege-Frames	is an instance of	OntologyLanguage
+aOntology	is subclass of	what isConsistentAccordingToReasoner of only xsd:boolean
+ViewDefinitionLanguage	is subclass of	owl:Thing
+OntologyLanguage	is subclass of	owl:Thing
+Organisation	is subclass of	what has acronym of exactly one rdfs:Literal
+Individual_Added	is subclass of	Individual_Change
+maximumNumberOfSiblings	range in	xsd:int
+Subclass_Added	is subclass of	Class_Change
+Ontology_Component	is subclass of	AnnotatableThing
+AcademicFreeLicense_AFL	is an instance of	LicenseModel
+aOntology	is subclass of	what has creationDate of exactly one rdfs:Literal
+propertyWithUniqueValue	has domain in	aOntology
+OntologyDomain	is subclass of	what has oboFoundryName of at most one rdfs:Literal
+SPARQL	is supported by	view generation engine Jena-ARQ
+SPARQL	is an instance of	ViewDefinitionLanguage
+LicenseModel	is subclass of	what has acronym of only xsd:string
+aOntology	is subclass of	what has creationDate of only xsd:string
+oboFoundryID	range in	xsd:string
+LicenseModel	is subclass of	what is specifiedBy of only Party
+Authority_Manual	is subclass of	Authority
+SPARQL	is supported by	view generation engine Pellet
+maximumNumberOfSiblings	has domain in	aOntology
+averageNumberOfSiblings	has domain in	aOntology
+aOntology	is subclass of	what is administeredBy of at least one owl:Thing
+OntologyEngineeringMethodology	is subclass of	what has documentation of only xsd:string
+aOntology	is subclass of	what hasContactEmail of at most one rdfs:Literal
+numberOfClasses	range in	xsd:integer
+containsTBox	has domain in	aOntology
+Superclass_Removed	is subclass of	Class_Change
+Superclass_Added	is subclass of	Class_Change
+Ontology_Property	is subclass of	Ontology_Component
+AnnotationTask	is an instance of	OntologyTask
+OntologyLanguage	is subclass of	what has description of at most one rdfs:Literal
+aOntology	is subclass of	what has numberOfClasses of only xsd:integer
+supportsRepresentationParadigm	range in	KnowledgeRepresentationParadigm
+createsOntology	has domain in	Party
+Person	is subclass of	what has eMail of only xsd:string
+Verification	is subclass of	rdfs:Resource
+Maximum_Cardinality	is subclass of	Property_Change
+KnowledgeRepresentationParadigm	is subclass of	what has description of at most one rdfs:Literal
+SearchTask	is an instance of	OntologyTask
+LicenseModel	is subclass of	what has name of exactly one rdfs:Literal
+Party	is subclass of	what developesOntologyLanguage of only OntologyLanguage
+Timestamp	is subclass of	rdfs:Resource
+specifiesLicense	has domain in	Party
+aOntology	is subclass of	what hasContactName of at most one rdfs:Literal
+currentName	range in	rdfs:Literal
+authorProperty	has domain in	aOntology
+useImports	range in	aOntology
+designedForOntologyTask	has domain in	aOntology
+supportedByViewGenerationEngine	is inverse of	supportsViewDefinitionLanguage
+BioPortalUserRole	is subclass of	owl:Thing
+Ontology_Class	is subclass of	Ontology_Component
+hasOntologyLanguage	has domain in	aOntology
+changes_Slot_1	range in	rdfs:Literal
+textualReview	range in	xsd:string
+isLocatedAt	has domain in	Party
+aOntology	is subclass of	what hasLicense of at most one owl:Thing
+OntologyTask	is subclass of	owl:Thing
+OntologyDomain	is subclass of	what has id of exactly one rdfs:Literal
+LesserGeneralPublicLicense_LGPL	is an instance of	LicenseModel
+verified	range in	Verification
+OntologyLanguage	is subclass of	what is developedBy of only Party
+ARQ-Language	is an instance of	ViewDefinitionLanguage
+action	range in	rdfs:Literal
+aOntology	is subclass of	what hasFormalityLevel of only FormalityLevel
+hasCreator	range in	Party
+isVersionOfVirtualOntology	has domain in	aOntology
+aOntology	is subclass of	what has usedOntologyEngineeringMethodology of only OntologyEngineeringMethodology
+MediationTask	is an instance of	OntologyTask
+hasOntologySyntax	range in	OntologySyntax
+resourceLocator	range in	xsd:string
+aOntology	is subclass of	what containsRBox of at most one rdfs:Literal
+aOntology	is subclass of	what has acronym of exactly one rdfs:Literal
+name	has domain in	FormalityLevel or KnowledgeRepresentationParadigm or LicenseModel or OntologyDomain or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or Organisation or aOntology
+OntologyLanguage	is subclass of	what has name of only xsd:string
+documentationProperty	range in	xsd:string
+Subclass_Removed	is subclass of	Class_Change
+ViewGenerationEngine	is subclass of	what has description of at most one rdfs:Literal
+TaskOntology	is an instance of	OntologyType
+reviewOnDimension	has domain in	Review
+statusID	has domain in	aOntology
+aOntology	is subclass of	what isRemote of exactly one rdfs:Literal
+BioPortalUserRole	is subclass of	what has description of at most one rdfs:Literal
+KnowledgeRepresentationParadigm	is subclass of	what has name of only xsd:string
+OntologyTask	is subclass of	what has documentation of only xsd:string
+isManual	has domain in	VirtualOntology
+Pellet	has documentation in	"http://clarkparsia.com/pellet"^^xsd:string
+definesOntologyType	has domain in	Party
+verified_on	range in	rdfs:Literal
+phoneNumber	range in	xsd:string
+OntologySyntax	is subclass of	owl:Thing
+dependency	range in	One_to_one_mapping
+FormalityLevel	is subclass of	what has name of exactly one rdfs:Literal
+PersonalizationTask	is an instance of	OntologyTask
+usedOntologyEngineeringMethodology	range in	OntologyEngineeringMethodology
+ModifiedBSDLicense_mBSD	is an instance of	LicenseModel
+Minimum_Cardinality	is subclass of	Property_Change
+application_Context	range in	rdfs:Literal
+aOntology	is subclass of	what has timestampCreation of exactly one rdfs:Literal
+Person	is subclass of	what has firstName of only xsd:string
+Property_Created	is subclass of	Property_Change
+supportedByViewGenerationEngine	has domain in	ViewDefinitionLanguage
+aOntology	is subclass of	what hasLicense of only LicenseModel
+urlPublications	range in	xsd:string
+Maximum_Value	is subclass of	Property_Change
+Virtuoso	has documentation in	"http://virtuoso.openlinksw.com/wiki/main/Main"^^xsd:string
+Subproperty_Added	is subclass of	Property_Change
+OntologyEngineeringTool	is subclass of	what is developedBy of only Party
+virtualURI	has domain in	VirtualOntology
+RDQL	is supported by	view generation engine Jena-ARQ
+SPARQL	is supported by	view generation engine RedLand-Rasqal
+sequence	range in	rdfs:Literal
+RQL	has documentation in	"http://139.91.183.30:9090/RDF/RQL/"^^xsd:string
+codingScheme	range in	xsd:string
+AgreeDisagreeVote	is subclass of	Vote
+administeredBy	has domain in	aOntology or Project
+Jena-ARQ	is an instance of	ViewGenerationEngine
+viewDefinitionLanguage	has domain in	OntologyView
+Property_Value	is subclass of	Individual_Change
+developesOntologyEngineeringTool	has domain in	Party
+classesWithNoAuthor	range in	xsd:string
+FormalityLevel	is subclass of	what has name of only xsd:string
+ViewDefinitionLanguage	is subclass of	what has documentation of at most one rdfs:Literal
+hasVirtualView	range in	VirtualView
+street	range in	xsd:string
+OntologySyntax	is subclass of	what has documentation of at most one rdfs:Literal
+containsABox	range in	xsd:boolean
+MatchingTask	is an instance of	OntologyTask
+Property_Created	is subclass of	Created_Change
+KnowledgeRepresentationParadigm	is subclass of	what has documentation of only xsd:string
+hasFormalityLevel	range in	FormalityLevel
+aOntology	is subclass of	what containsTBox of at most one rdfs:Literal
+Person	is subclass of	what has firstName of exactly one rdfs:Literal
+modified	range in	Timestamp
+KnowledgeRepresentationParadigm	is subclass of	what has documentation of at most one rdfs:Literal
+isViewOnOntologyVersion	range in	aOntology
+institution	range in	Organisation
+OBO_Foundry	is an instance of	Organisation
+hasAffiliatedParty	range in	Party
+belongsToGroup	has domain in	VirtualOntology
+RDQL	has documentation in	"http://www.w3.org/Submission/2004/SUBM-RDQL-20040109/"^^xsd:string
+FilteringTask	is an instance of	OntologyTask
+eMail	has domain in	Person
+notes	has domain in	aOntology
+confidence	range in	rdfs:Literal
+RVL	is an instance of	ViewDefinitionLanguage
+Party	is subclass of	what developesOntologyEngineeringMethodology of only OntologyEngineeringMethodology
+OntologySyntax	is subclass of	what has description of only xsd:string
+classesWithNoDocumentation	has domain in	aOntology
+aOntology	is subclass of	what hasDomain of only OntologyDomain
+hasView	has domain in	aOntology
+statusID	range in	xsd:int
+OntologyLanguage	is subclass of	what has acronym of only xsd:string
+Individual_Removed	is subclass of	Individual_Change
+aOntology	is subclass of	what hasOntologyLanguage of only OntologyLanguage
+definesOntologyType	range in	OntologyType
+OntologyType	is subclass of	what has documentation of at most one rdfs:Literal
+submittedBy	range in	rdfs:Literal
+Virtuoso	supportd	view definition language  vSPARQL
+applyTo	range in	Ontology_Component
+aOntology	is subclass of	what has description of exactly one rdfs:Literal
+BioPortalUser	is subclass of	what has password of at most one rdfs:Literal
+aOntology	is subclass of	what has filePath of exactly one rdfs:Literal
+aOntology	is subclass of	what has statusID of exactly one rdfs:Literal
+Annotation_Change	is subclass of	Class_Change
+ViewGenerationEngine	is subclass of	what has documentation of only xsd:string
+aOntology	is subclass of	what has keywords of only xsd:string
+hasVersion	has domain in	VirtualOntology
+RedLand-Rasqal	is an instance of	ViewGenerationEngine
+ViewDefinitionLanguage	is subclass of	what has description of only xsd:string
+URI	has domain in	OntologyDomain or aOntology
+OntologyEngineeringTool	is subclass of	what has documentation of at most one rdfs:Literal
+OntologyGroup	is subclass of	what has description that has value from "string"^^xsd:string
+Individual_Deleted	is subclass of	Deleted_Change
+aOntology	is subclass of	what has numberOfIndividuals of exactly one rdfs:Literal
+Property_Deleted	is subclass of	Property_Change
+isOfType	range in	OntologyType
+BioPortalUser	is subclass of	what has id of exactly one rdfs:Literal
+Class_Created	is subclass of	Class_Change
+Superproperty_Removed	is subclass of	Property_Change
+Party	is subclass of	what contributesToOntology of only aOntology
+aOntology	is subclass of	what hasFormalityLevel of at most one owl:Thing
+Superproperty_Added	is subclass of	Property_Change
+Protege	is an instance of	OntologyEngineeringTool
+Person	is subclass of	what has phoneNumber of only xsd:string
+RedLand-Rasqal	supportd	view definition language  RDQL
+aOntology	is subclass of	what has URI of only xsd:string
+BioPortalUserRole	is subclass of	what has name of only xsd:string
+definedBy	has domain in	OntologyType
+oboFoundryName	has domain in	OntologyDomain
+Proposal	is subclass of	Annotation
+Location	is subclass of	what has country of at most one rdfs:Literal
+description	has domain in	FormalityLevel or KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or aOntology or Project
+hasContributor	range in	Party
+aOntology	is subclass of	what has internalVersionNumber of exactly one rdfs:Literal
+RDF-XML	is an instance of	OntologySyntax
+CoreOntology	is an instance of	OntologyType
+BioPortalUserRole	is subclass of	what has id of exactly one rdfs:Literal
+aOntology	is subclass of	what hasPriorVersion of at most one owl:Thing
+designedForOntologyTask	range in	OntologyTask
+developesOntologyLanguage	has domain in	Party
+Person	is subclass of	what has lastName of exactly one rdfs:Literal
+Party	is subclass of	what developesOntologyEngineeringTool of only OntologyEngineeringTool
+URI	has domain in	ViewDefinitionLanguage or ViewGenerationEngine
+fileNames	range in	xsd:string
+Property_Deleted	is subclass of	Deleted_Change
+Jena-ARQ	has documentation in	"http://jena.sourceforge.net/"^^xsd:string
+isViewOnOntologyVersion	has domain in	OntologyView
+Schema	is an instance of	FormalityLevel
+classesWithSingleSubclass	range in	xsd:string
+Authority	is subclass of	rdfs:Resource
+hasSyntax	range in	OntologySyntax
+algorithm_name	range in	rdfs:Literal
+Location	is subclass of	what has state of at most one rdfs:Literal
+changes_Slot_0	range in	rdfs:Literal
+documentation	has domain in	KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or aOntology or ViewDefinitionLanguage or ViewGenerationEngine
+LicenseModel	is subclass of	what has description of only xsd:string
+belongsToGroup	is inverse of	containsOntology
+Subproperty_Removed	is subclass of	Property_Change
+created	range in	Timestamp
+supportedByViewGenerationEngine	range in	ViewGenerationEngine
+RedLand-Rasqal	supportd	view definition language  SPARQL
+Terminology	is an instance of	FormalityLevel
+aOntology	is subclass of	what useImports of only aOntology
+OntologyGroup	is subclass of	what has name that has value from "string"^^xsd:string
+Party	is subclass of	what hasAffiliatedParty of only Party
+expressiveness	range in	xsd:string
+containsABox	has domain in	aOntology
+qualityOfContentReview	is subproperty of	reviewOnDimension
+keywords	has domain in	aOntology
+contributesToOntology	range in	aOntology
+aOntology	is subclass of	what has numberOfProperties of only xsd:integer
+ViewGenerationEngine	is subclass of	owl:Thing
+developesOntologyEngineeringTool	range in	OntologyEngineeringTool
+aOntology	is subclass of	what isConsistentAccordingToReasoner of at most one rdfs:Literal
+Party	is subclass of	what definesOntologyType of only OntologyType
+supportsViewDefinitionLanguage	has domain in	ViewGenerationEngine
+FiveStarsVote	is subclass of	Vote
+CommonPublicLicense_CPL	is an instance of	LicenseModel
+RDQL	is an instance of	ViewDefinitionLanguage
+Location	is subclass of	what has state of only xsd:string
+preferredNameProperty	has domain in	aOntology
+OntologyEngineeringTool	is subclass of	owl:Thing
+DomainOntology	is an instance of	OntologyType
+Sesame-SPARQL_Engine	supportd	view definition language  SPARQL
+authority	range in	Authority
+OntologyGroup	is subclass of	what has id of exactly one rdfs:Literal
+DirectType_Removed	is subclass of	Individual_Change
+rating	range in	xsd:int
+authorProperty	range in	xsd:string
+degreeOfFormalityReview	is subproperty of	reviewOnDimension
+preferredNameProperty	range in	xsd:string
+OntologyType	is subclass of	what has name of only xsd:string
+usedOntologyEngineeringTool	has domain in	aOntology
+aOntology	is subclass of	what has documentation of at most one rdfs:Literal
+newName	range in	rdfs:Literal
+DAML-OIL	is an instance of	OntologyLanguage
+RDQL	is supported by	view generation engine RedLand-Rasqal
+OntologySyntax	is subclass of	what has documentation of only xsd:string
+OntologyLanguage	is subclass of	what has documentation of only xsd:string
+caBIG	is an instance of	Organisation
+aOntology	is subclass of	what has version of exactly one rdfs:Literal
+supportsRepresentationParadigm	has domain in	OntologyLanguage
+QueryFormulationTask	is an instance of	OntologyTask
+Authority_Algorithm	is subclass of	Authority
+Location	is subclass of	what has street of at most one rdfs:Literal
+hasContactEmail	has domain in	aOntology or Project
+TemplateSlot_Added	is subclass of	Class_Change
+LicenseModel	is subclass of	what has name of only xsd:string
+usesOntology	range in	aOntology
+timestampCreation	has domain in	aOntology or BioPortalUser
+ApplicationOntology	is an instance of	OntologyType
+preferredMaximumSubclassLimit	range in	xsd:int
+isRemote	range in	xsd:boolean
+Class_Deleted	is subclass of	Class_Change
+OntologyType	is subclass of	what has name of exactly one rdfs:Literal
+OntologyDomain	is subclass of	what has URI of exactly one rdfs:Literal
+VotingProposal	is subclass of	Proposal
+KnowledgeRepresentationParadigm	is subclass of	what has description of only xsd:string
+OntologyEngineeringTool	is subclass of	what has acronym of at most one rdfs:Literal
+OntologyType	is subclass of	what has description of at most one rdfs:Literal
+isOfType	has domain in	aOntology
+viewGenerationEngine	has domain in	OntologyView
+administeredBy	is inverse of	administers
+relation	range in	rdfs:Literal
+specifiesKnowledgeRepresentationParadigm	range in	KnowledgeRepresentationParadigm
+naturalLanguage	range in	xsd:string
+OntologyView	is subclass of	aOntology
+RedLand-Rasqal	has documentation in	"http://librdf.org/rasqal/"^^xsd:string
+endorsedBy	has domain in	aOntology
+OntologyLanguage	is subclass of	what has acronym of at most one rdfs:Literal
+Party	is subclass of	what developesOntologySyntax of only OntologySyntax
+aOntology	is subclass of	what isOfType of exactly one owl:Thing
+OntologyEngineeringMethodology	is subclass of	what has acronym of only xsd:string
+numberOfProperties	has domain in	aOntology
+id	has domain in	OntologyDomain or aOntology or BioPortalUser or BioPortalUserRole or OntologyGroup or VirtualOntology
+component_name	range in	rdfs:Literal
+classesWithMoreThanOnePropertyValueForPropertyWithUniqueValue	range in	xsd:string
+viewDefinition	has domain in	OntologyView
+currentVersion	range in	aOntology
+urlHomepage	has domain in	aOntology or OntologyGroup
+aOntology	is subclass of	what hasOntologySyntax of exactly one owl:Thing
+OntologyEngineeringTool	is subclass of	what has acronym of only xsd:string
+LexGrid-XML	is an instance of	OntologyLanguage
+Review	is subclass of	Annotation
+containsRBox	has domain in	aOntology
+domainCoverageReview	is subproperty of	reviewOnDimension
+maximumDepth	range in	xsd:int
+aOntology	is subclass of	what containsRBox of only xsd:boolean
+Annotation_Added	is subclass of	Annotation_Change
+Class_Deleted	is subclass of	Deleted_Change
+containsOntology	has domain in	OntologyGroup
+hasSyntax	has domain in	OntologyLanguage
+specifiedBy	range in	Party
+Annotation_Removed	is subclass of	Annotation_Change
+aOntology	is subclass of	what containsABox of only xsd:boolean
+aOntology	is subclass of	what has preferredNameProperty of at most one rdfs:Literal
+KnowledgeRepresentationParadigm	is subclass of	what has name of exactly one rdfs:Literal
+firstName	range in	xsd:string
+ViewGenerationEngine	is subclass of	what has description of only xsd:string
+annotates	range in	AnnotatableThing
+internalVersionNumber	range in	xsd:int
+isFoundry	has domain in	aOntology
+rating	has domain in	EvaluationDimension
+createsOntology	range in	aOntology
+AgreeDisagreeVoteProposal	is subclass of	VotingProposal
+Virtuoso	has documentation in	"http://virtuoso.openlinksw.com/wiki/main/Main"^^xsd:string
+OntologySyntax	is subclass of	what has name of only xsd:string
+documentation	range in	xsd:string
+OntologyEngineeringMethodology	is subclass of	what has documentation of at most one rdfs:Literal
+Deleted_Change	is subclass of	Change
+aOntology	is subclass of	what has codingScheme of at most one rdfs:Literal
+KnowledgeRepresentationParadigm	is subclass of	what has acronym of at most one rdfs:Literal
+Party	is subclass of	what createsOntology of only aOntology
+BioPortalUser	is subclass of	what has username of exactly one rdfs:Literal
+aOntology	is subclass of	what has name of only xsd:string
+Class_Change	is subclass of	Change
+propertyWithUniqueValue	range in	xsd:string
+useImports	has domain in	aOntology
+timestampCreation	range in	xsd:dateTime
+aOntology	is subclass of	what hasCreator of at least one owl:Thing
+aOntology	is subclass of	what has numberOfAxioms of only xsd:integer
+vSPARQL	is supported by	view generation engine Virtuoso
+password	range in	xsd:string
+lastName	range in	xsd:string
+classesWithMoreThanOnePropertyValueForPropertyWithUniqueValue	has domain in	aOntology
+hasLicense	range in	LicenseModel
+developesOntologyEngineeringMethodology	has domain in	Party
+aOntology	is subclass of	what has knownUsage of only xsd:string
+VirtualOntology	is subclass of	what isManual of exactly one rdfs:Literal
+OntologyEngineeringMethodology	is subclass of	owl:Thing
+country	range in	xsd:string
+averageNumberOfSiblings	range in	xsd:int
+documentation	has domain in	KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or aOntology
+Individual_Deleted	is subclass of	Individual_Change
+OWL-DL	is an instance of	OntologyLanguage
+OntologyTask	is subclass of	what has acronym of at most one rdfs:Literal
+Documentation_Removed	is subclass of	Class_Change
+Party	is subclass of	what specifiesKnowledgeRepresentationParadigm of only KnowledgeRepresentationParadigm
+hasAffiliatedParty	has domain in	Party
+timestamp	range in	Timestamp
+definedBy	range in	Party
+targetTerminologies	has domain in	aOntology
+Example	is subclass of	Annotation
+knownUsage	has domain in	aOntology
+acronym	has domain in	KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or Organisation or aOntology or ViewDefinitionLanguage or ViewGenerationEngine
+isContactPerson	has domain in	Person
+oboFoundryID	has domain in	VirtualOntology
+OWL	is an instance of	OntologyLanguage
+OntologySyntax	is subclass of	what has acronym of only xsd:string
+DisjointClass_Added	is subclass of	Class_Change
+correctnessReview	is subproperty of	reviewOnDimension
+developesOntologySyntax	range in	OntologySyntax
+FormalityLevel	is subclass of	owl:Thing
+OWL-XML	is an instance of	OntologySyntax
+Location	is subclass of	what has city of only xsd:string
+hasContributor	has domain in	aOntology
+date	range in	rdfs:Literal
+OntologyTask	is subclass of	what has description of only xsd:string
+component_type	range in	rdfs:Literal
+hasContactEmail	range in	xsd:string
+IndexingTask	is an instance of	OntologyTask
+version	has domain in	aOntology or ViewDefinitionLanguage or ViewGenerationEngine
+Name_Changed	is subclass of	Change
+ViewGenerationEngine	is subclass of	what has acronym of only xsd:string
+author	range in	rdfs:Literal
+aOntology	is subclass of	what has documentation of only xsd:string
+source	range in	Ontology_Component or rdfs:Resource
+OWL-Full	is an instance of	OntologyLanguage
+hasVersion	is inverse of	isVersionOfVirtualOntology
+eMail	range in	xsd:string
+ViewGenerationEngine	is subclass of	what has name of exactly one rdfs:Literal
+administeredBy	range in	BioPortalUser
+ConfigurationTask	is an instance of	OntologyTask
+aOntology	is subclass of	what has numberOfProperties of exactly one rdfs:Literal
+OntologyDomain	is subclass of	what has URI of only xsd:string
+changes	range in	Change
+LicenseModel	is subclass of	owl:Thing
+Organisation	is subclass of	what hasContactPerson of only Person
+specifiesKnowledgeRepresentationParadigm	has domain in	Party
+urlHomepage	range in	xsd:string
+aOntology	is subclass of	what has usedKnowledgeRepresentationParadigm of only KnowledgeRepresentationParadigm
+aOntology	is subclass of	what hasCreator of only Party
+viewDefinitionLanguage	range in	ViewDefinitionLanguage
+classesWithSingleSubclass	has domain in	aOntology
+IBMPublicLicenseIBM_PL	is an instance of	LicenseModel
+isVersionOfVirtualOntology	range in	VirtualOntology
+lastName	has domain in	Person
+Created_Change	is subclass of	Change
+deletionName	range in	rdfs:Literal
+OntologyEngineeringTool	is subclass of	what has documentation of only xsd:string
+endorsedBy	range in	Party
+aOntology	is subclass of	what has resourceLocator of exactly one rdfs:Literal
+Jena-ARQ	supportd	view definition language  SPARQL
+state	has domain in	Location
+OntologyTask	is subclass of	what has description of at most one rdfs:Literal
+aOntology	is subclass of	what has id of exactly one rdfs:Literal
+username	range in	xsd:string
+numberOfClasses	has domain in	aOntology
+Thesaurus	is an instance of	FormalityLevel
+SimpleProposal	is subclass of	Proposal
+Pellet	supportd	view definition language  SPARQL
+aOntology	is subclass of	what containsABox of at most one rdfs:Literal
+description	range in	xsd:string
+comment	range in	rdfs:Literal
+ViewDefinitionLanguage	is subclass of	what has description of at most one rdfs:Literal
+targetTerminologies	range in	xsd:string
+annotatesByVirtualID	has domain in	Annotation
+hasVirtualView	has domain in	VirtualOntology
+OntologyTask	is subclass of	what has acronym of only xsd:string
+ViewDefinitionLanguage	is subclass of	what has acronym of at most one rdfs:Literal
+isContactPerson	range in	Organisation
+URI	range in	xsd:string
+LicenseModel	is subclass of	what has documentation of only xsd:string
+KnowledgeRepresentationParadigm	is subclass of	what is specifiedBy of only Party
+title	range in	rdfs:Literal
+isRemote	has domain in	aOntology
+OntologyType	is subclass of	what has description of only xsd:string
+maximumDepth	has domain in	aOntology
+Documentation_Added	is subclass of	Class_Change
+aOntology	is subclass of	what is endorsedBy of only Party
+containsOntology	range in	VirtualOntology
+developesOntologyEngineeringMethodology	range in	OntologyEngineeringMethodology
+vSPARQL	is an instance of	ViewDefinitionLanguage
+hasPriorVersion	has domain in	aOntology
+documentationAndSupportReview	is subproperty of	reviewOnDimension
+status	range in	xsd:string
+UpperLevelOntology	is an instance of	OntologyType
+annotatesByVirtualID	range in	xsd:string
+acronym	has domain in	KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or Organisation or aOntology
+faxNumber	has domain in	Person
+Organisation	is subclass of	what has acronym of only xsd:string
+Individual_Created	is subclass of	Individual_Change
+hasLicense	has domain in	aOntology
+aOntology	is subclass of	what has notes of at most one rdfs:Literal
+city	has domain in	Location
+usedKnowledgeRepresentationParadigm	has domain in	aOntology
+aOntology	is subclass of	what hasPriorVersion of only aOntology
+body	range in	rdfs:Literal
+OntologyDomain	is subclass of	what has name of only xsd:string
+aOntology	is subclass of	what has modificationDate of only xsd:string
+RRF	is an instance of	OntologyLanguage
+acronym	range in	xsd:string
+status	has domain in	aOntology
+Organisation	is subclass of	what has name of only xsd:string
+classesWithMoreThanXSubclasses	range in	xsd:string
+OntologyGroup	is subclass of	what has acronym of exactly one rdfs:Literal
+codingScheme	has domain in	aOntology
+DirectType_Added	is subclass of	Individual_Change
+administers	range in	aOntology or Project
+belongsToGroup	range in	OntologyGroup
+hasContactPerson	has domain in	Organisation
+isFoundry	range in	xsd:boolean
+oldName	range in	rdfs:Literal
+Advice	is subclass of	Annotation
+isSubDomainOf	has domain in	OntologyDomain
+name	range in	xsd:string
+synonymProperty	has domain in	aOntology
+VirtualOntology	is subclass of	Proposal
+OWL-Lite	is an instance of	OntologyLanguage
+aOntology	is subclass of	what hasOntologySyntax of only OntologySyntax
+Composite_Change	is subclass of	Change
+numberOfProperties	range in	xsd:integer
+Annotation_Modified	is subclass of	Annotation_Change
+BioPortalUserRole	is subclass of	what has name of exactly one rdfs:Literal
+KnowledgeRepresentationParadigm	is subclass of	owl:Thing
+OntologyDomain	is subclass of	owl:Thing
+OntologyLanguage	is subclass of	what has description of only xsd:string
+knownUsage	range in	xsd:string
+OntologyType	is subclass of	what has documentation of only xsd:string
+aOntology	is subclass of	what isIncompatibleWith of only aOntology
+DomainProperty_Added	is subclass of	Class_Change
+hasView	range in	OntologyView
+aOntology	is subclass of	what has keyClasses of only xsd:string
+Vocabulary	is an instance of	FormalityLevel
+reviewOnDimension	range in	EvaluationDimension
+RDF-S	is an instance of	OntologyLanguage
+city	range in	xsd:string
+state	range in	xsd:string
+isLocatedAt	range in	Location
+filePath	range in	xsd:string
+Location	is subclass of	what has street of only xsd:string
+OntologyTask	is subclass of	what has documentation of at most one rdfs:Literal
+urlPublications	has domain in	aOntology
+TemplateSlot_Removed	is subclass of	Class_Change
+OntologyLanguage	is subclass of	what has name of exactly one rdfs:Literal
+OntologyTask	is subclass of	what has name of only xsd:string
+DomainProperty_Removed	is subclass of	Class_Change
+administers	has domain in	BioPortalUser
+hasDomain	range in	OntologyDomain
+hasOntologyLanguage	range in	OntologyLanguage
+developesOntologySyntax	has domain in	Party
+password	has domain in	BioPortalUser
+isBackwardCompatibleWith	range in	aOntology
+BioPortalUserRole	is subclass of	what has description of only xsd:string
+OntologyGroup	is subclass of	what has description of at most one rdfs:Literal
+OBOEdit	is an instance of	OntologyEngineeringTool
+classesWithMoreThanXSubclasses	has domain in	aOntology
+KnowledgeRepresentationParadigm	is subclass of	what has acronym of only xsd:string
+aOntology	is subclass of	what has resourceLocator of only xsd:string
+OBO	is an instance of	OntologyLanguage
+hasRoles	range in	BioPortalUserRole
+creationName	range in	rdfs:Literal
+aOntology	is subclass of	what has notes of only xsd:string
+Explanation	is subclass of	Annotation
+hasVirtualView	is inverse of	virtualViewOf
+specifiesLicense	range in	LicenseModel
+street	has domain in	Location
+OntologyLanguage	is subclass of	what has documentation of at most one rdfs:Literal
+RQL	is an instance of	ViewDefinitionLanguage
+Jena-ARQ	has documentation in	"http://jena.sourceforge.net/ARQ/"^^xsd:string
+firstName	has domain in	Person
+OntologyTask	is subclass of	what has name of exactly one rdfs:Literal
+containsRBox	range in	xsd:boolean
+OpenSoftwareLicense_OSL	is an instance of	LicenseModel
+aOntology	is subclass of	what has acronym of only xsd:string
+associatedAnnotations	range in	Annotation
+Sesame-SPARQL_Engine	is an instance of	ViewGenerationEngine
+verified_by	range in	rdfs:Literal
+aOntology	is subclass of	what containsTBox of only xsd:boolean
+DAG	is an instance of	KnowledgeRepresentationParadigm
+supportsViewDefinitionLanguage	range in	ViewDefinitionLanguage
+virtualURI	range in	xsd:string
+OntologyGroup	is subclass of	what has acronym value "string"^^xsd:string
+hasContactName	has domain in	aOntology or Project
+aOntology	is subclass of	what hasContributor of only Party
+ManualViewDefinitionLanguage	is an instance of	ViewDefinitionLanguage
+FormalityLevel	is subclass of	what has description of only xsd:string
+isIncompatibleWith	has domain in	aOntology
+Property_Change	is subclass of	Change
+OntologyDomain	is subclass of	what isSubDomainOf of only OntologyDomain
+isSubDomainOf	range in	OntologyDomain
+partOfCompositeChange	range in	Composite_Change
+textualReview	has domain in	EvaluationDimension
+preferredMaximumSubclassLimit	has domain in	aOntology
+SeeAlso	is subclass of	Annotation
+documentationProperty	has domain in	aOntology
+hasOntologySyntax	has domain in	aOntology
+aOntology	is subclass of	what has numberOfIndividuals of only xsd:integer
+OntologyEngineeringMethodology	is subclass of	what has acronym of at most one rdfs:Literal
+Class_Created	is subclass of	Created_Change
+creationDate	range in	xsd:string
+aOntology	is subclass of	what has version of only xsd:string
+OntologyGroup	is subclass of	owl:Thing
+OntologyEngineeringMethodology	is subclass of	what is developedBy of only Party
+hasDomain	has domain in	aOntology
+OntologyGroup	is subclass of	what has name of exactly one rdfs:Literal
+institution	has domain in	Project
+voteValue	range in	rdfs:Literal
+subject	range in	rdfs:Literal
+VirtualOntology	is subclass of	what has id of exactly one rdfs:Literal
+synonymProperty	range in	xsd:string
+notes	range in	xsd:string
+keyClasses	range in	xsd:string
+SPARQL	has documentation in	"http://www.w3.org/TR/rdf-sparql-query/"^^xsd:string
+subChanges	range in	Change
+numberOfIndividuals	range in	xsd:integer
+aOntology	is subclass of	what has description of only xsd:string
+keywords	range in	xsd:string
+mapping_metadata	range in	Mapping_Metadata
+RVL	has documentation in	"http://www.ics.forth.gr/isl/publications/paperlink/iswc03.pdf"^^xsd:string
+isBackwardCompatibleWith	has domain in	aOntology
+usabilityReview	is subproperty of	reviewOnDimension
+containsTBox	range in	xsd:boolean
+LicenseModel	is subclass of	what has documentation of at most one rdfs:Literal
+aOntology	is subclass of	what has expressiveness of only xsd:string
+OntologyType	is subclass of	owl:Thing
+Change	is subclass of	AnnotatableThing
+externalReferences	range in	rdfs:Literal
+OntologySyntax	is subclass of	what has description of at most one rdfs:Literal
+OntologyEngineeringMethodology	is subclass of	what has description of at most one rdfs:Literal
+LicenseModel	is subclass of	what has description of at most one rdfs:Literal
+ViewDefinitionLanguage	is subclass of	what has name of only xsd:string
+classesWithNoDocumentation	range in	xsd:string
+BioPortalUser	is subclass of	Person
+OntologyLanguage	is subclass of	what hasSyntax of only OntologySyntax
+ViewDefinitionLanguage	is subclass of	what has name of exactly one rdfs:Literal
+version	has domain in	aOntology
+Frames	is an instance of	KnowledgeRepresentationParadigm
+name	has domain in	ViewDefinitionLanguage or ViewGenerationEngine
+INTELOpenSourceLicenseINTEL_OSL	is an instance of	LicenseModel
+aOntology	is subclass of	what has name of at least one rdfs:Literal
+OntologyEngineeringTool	is subclass of	what has description of at most one rdfs:Literal
+specifiedBy	has domain in	KnowledgeRepresentationParadigm or LicenseModel
+hasView	is inverse of	isViewOnOntologyVersion
+country	has domain in	Location
+usedKnowledgeRepresentationParadigm	range in	KnowledgeRepresentationParadigm
+aOntology	is subclass of	what has expressiveness of at most one rdfs:Literal
+Person	is subclass of	what has eMail of at least one rdfs:Literal
+virtualViewOf	range in	VirtualOntology
+aOntology	is subclass of	what isBackwardCompatibleWith of only aOntology
+Person	is subclass of	what has lastName of only xsd:string
+Comment	is subclass of	Annotation
+modificationDate	has domain in	aOntology
+usedOntologyEngineeringTool	range in	OntologyEngineeringTool
+Organisation	is subclass of	Party
+aOntology	is subclass of	what has usedOntologyEngineeringTool of only OntologyEngineeringTool
+ViewGenerationEngine	is subclass of	what has name of only xsd:string
+contributesToOntology	has domain in	Party
+OntologySyntax	is subclass of	what is developedBy of only Party
+aOntology	is subclass of	what has status of at most one rdfs:Literal
+BioPortalUser	is subclass of	what has timestampCreation of exactly one rdfs:Literal
+Virtuoso	is an instance of	ViewGenerationEngine
+expressiveness	has domain in	aOntology
+Pellet	is an instance of	ViewGenerationEngine
+OntologyEngineeringTool	is subclass of	what has name of exactly one rdfs:Literal
+naturalLanguage	has domain in	aOntology
+username	has domain in	BioPortalUser
+VirtualOntology	is subclass of	what has oboFoundryID of at most one rdfs:Literal
+usedOntologyEngineeringMethodology	has domain in	aOntology
+faxNumber	range in	xsd:string
+resourceLocator	has domain in	aOntology
+OntologyLanguage	is subclass of	what supportsRepresentationParadigm of only KnowledgeRepresentationParadigm
+OntologyType	is subclass of	what has acronym of at most one rdfs:Literal
+description	has domain in	FormalityLevel or KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or aOntology
+LicenseModel	is subclass of	what has acronym of at most one rdfs:Literal
+OntologyType	is subclass of	what has acronym of only xsd:string
+Minimum_Value	is subclass of	Property_Change
+keyClasses	has domain in	aOntology
+aOntology	is subclass of	what has designedForOntologyTask of only OntologyTask
+associatedProperty	range in	Ontology_Property
+hasContactPerson	range in	Person
+viewGenerationEngine	range in	ViewGenerationEngine
+aOntology	is subclass of	what has synonymProperty of at most one rdfs:Literal
+id	range in	xsd:int
+AnnotatableThing	is subclass of	rdfs:Resource
+Virtuoso	has documentation in	"http://virtuoso.openlinksw.com/dataspace/dav/wiki/Main/VOSSPARQL"^^xsd:string
+component_source	range in	rdfs:Literal
+isConsistentAccordingToReasoner	has domain in	aOntology
+hasFormalityLevel	has domain in	aOntology
+Question	is subclass of	Annotation
+Vote	is subclass of	Annotation
+target	range in	Ontology_Component or rdfs:Resource
+ApplePublicSourceLicense_APSL	is an instance of	LicenseModel
+ARQ-Language	is supported by	view generation engine Jena-ARQ
+aOntology	is subclass of	what has naturalLanguage of only xsd:string
+Individual_Created	is subclass of	Created_Change
+aOntology	is subclass of	what has numberOfAxioms of exactly one rdfs:Literal
+hasPriorVersion	range in	aOntology
+aOntology	is subclass of	what isFoundry of exactly one rdfs:Literal
+annotates	is inverse of	associatedAnnotations
+Person	is subclass of	what has faxNumber of only xsd:string
+SPARQL	is supported	by view generation engine Virtuoso
+Taxonomy	is an instance of	FormalityLevel
+OntologyEngineeringMethodology	is subclass of	what has name of only xsd:string
+OntologySyntax	is subclass of	what has name of exactly one rdfs:Literal
+Location	is subclass of	what has country of only xsd:string
+Party	is subclass of	what isLocatedAt of only Location
+inverse_of_annotates	range in	Annotation
+Party	is subclass of	what specifiesLicense of only LicenseModel
+FormalityLevel	is subclass of	what has description of at most one rdfs:Literal
+DescriptionLogics	is an instance of	KnowledgeRepresentationParadigm
+Individual_Change	is subclass of	Change
+oboFoundryName	range in	xsd:string
+ViewDefinitionLanguage	is subclass of	what has documentation of only xsd:string
+OntologyEngineeringMethodology	is subclass of	what has name of exactly one rdfs:Literal
+Annotation	is subclass of	AnnotatableThing
+bOntology	is subclass of	AnnotatableThing
+Person	is subclass of	what isContactPerson of only Organisation
+OntologyDomain	is subclass of	what has name of exactly one rdfs:Literal
+numberOfAxioms	range in	xsd:integer
+aOntology	is subclass of	what has modificationDate of at most one rdfs:Literal
+FiveStarsVoteProposal	is subclass of	VotingProposal
+OntologySyntax	is subclass of	what has acronym of at most one rdfs:Literal
+developesOntologyLanguage	range in	OntologyLanguage
+internalVersionNumber	has domain in	aOntology
+phoneNumber	has domain in	Person
+hasContactName	range in	xsd:string
+filePath	has domain in	aOntology
+creationDate	has domain in	aOntology
+isConsistentAccordingToReasoner	range in	xsd:boolean
+QueryRewritingTask	is an instance of	OntologyTask
+OntologyEngineeringTool	is subclass of	what has name of only xsd:string
+modificationDate	range in	xsd:string
+Person	is subclass of	Party
+related	range in	rdfs:Literal
+hasRoles	has domain in	BioPortalUser
+SPARQL	is supported by	view generation engine Sesame-SPARQL_Engine
+isIncompatibleWith	range in	aOntology
+Ontology_Individual	is subclass of	Ontology_Component
+developedBy	range in	Party
+hasVersion	range in	aOntology
+fileNames	has domain in	aOntology
+numberOfIndividuals	has domain in	aOntology

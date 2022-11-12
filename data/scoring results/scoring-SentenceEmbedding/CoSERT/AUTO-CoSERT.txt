@@ -1,0 +1,30 @@
+AUTO
+
+CoSERT   cosine
+Method 1 K1  score: 8831.5146484375
+Method 1 K2  score: 8831.302734375
+Method 1 K3  score: 8831.111328125
+Method 1 K4  score: 8831.349609375
+Method 1 K5  score: 8822.044921875
+Method 1 K6  score: 7791.63525390625
+Method 2 K1  score: 10083.4228515625
+Method 2 K2  score: 10083.1708984375
+Method 2 K3  score: 10082.7724609375
+Method 2 K4  score: 10082.3974609375
+Method 2 K5  score: 10066.0849609375
+Method 2 K6  score: 9028.8720703125
+
+
+CoSERT  euclid
+Method 1 K1  score: 6511.242037183248
+Method 1 K2  score: 6511.245829650622
+Method 1 K3  score: 6511.23829757637
+Method 1 K4  score: 6511.3489148336275
+Method 1 K5  score: 6504.3477293710175
+Method 1 K6  score: 5746.1241757313055
+Method 2 K1  score: 7932.273831979773
+Method 2 K2  score: 7932.252642756624
+Method 2 K3  score: 7931.558401284004
+Method 2 K4  score: 7929.968574063069
+Method 2 K5  score: 7917.556441171139
+Method 2 K6  score: 7039.945062465961

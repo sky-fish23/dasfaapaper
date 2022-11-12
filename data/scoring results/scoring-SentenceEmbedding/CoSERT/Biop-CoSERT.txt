@@ -1,0 +1,61 @@
+Biop
+
+CoSERT  cosine
+Method 1 K1  score: 17150.63671875
+Method 1 K2  score: 17150.736328125
+Method 1 K3  score: 17150.41796875
+Method 1 K4  score: 17150.4375
+Method 1 K5  score: 17128.66796875
+Method 1 K6  score: 17150.564453125
+Method 1 K7  score: 17150.62109375
+Method 1 K8  score: 17150.578125
+Method 1 K9  score: 17150.439453125
+Method 1 K10  score: 17151.638671875
+Method 1 K11  score: 17151.103515625
+Method 1 K12  score: 17128.49609375
+Method 1 K13  score: 17128.697265625
+Method 1 K14  score: 17128.525390625
+Method 2 K1  score: 19243.95703125
+Method 2 K2  score: 19244.22265625
+Method 2 K3  score: 19243.7734375
+Method 2 K4  score: 19243.64453125
+Method 2 K5  score: 19225.673828125
+Method 2 K6  score: 19243.796875
+Method 2 K7  score: 19243.9296875
+Method 2 K8  score: 19244.078125
+Method 2 K9  score: 19243.83984375
+Method 2 K10  score: 19244.92578125
+Method 2 K11  score: 19244.1171875
+Method 2 K12  score: 19225.662109375
+Method 2 K13  score: 19206.3828125
+Method 2 K14  score: 19206.37109375
+
+Euclid
+Method 1 K1  score: 11034.074824823869
+Method 1 K2  score: 11034.084269322972
+Method 1 K3  score: 11034.044781809433
+Method 1 K4  score: 11034.056995135204
+Method 1 K5  score: 11019.30277280613
+Method 1 K6  score: 11034.067580001554
+Method 1 K7  score: 11034.074014171727
+Method 1 K8  score: 11034.068799510564
+Method 1 K9  score: 11034.049975728401
+Method 1 K10  score: 11034.1645719113
+Method 1 K11  score: 11034.137766183534
+Method 1 K12  score: 11019.293353432706
+Method 1 K13  score: 11019.304616280577
+Method 1 K14  score: 11019.295196907153
+Method 2 K1  score: 13392.046199044238
+Method 2 K2  score: 13392.61292633314
+Method 2 K3  score: 13391.991120334795
+Method 2 K4  score: 13391.938127232226
+Method 2 K5  score: 13379.424983886765
+Method 2 K6  score: 13391.945700343995
+Method 2 K7  score: 13392.026389946524
+Method 2 K8  score: 13392.187120087707
+Method 2 K9  score: 13392.01723148016
+Method 2 K10  score: 13390.574010164763
+Method 2 K11  score: 13392.05558409908
+Method 2 K12  score: 13379.428946079044
+Method 2 K13  score: 13366.823628888716
+Method 2 K14  score: 13366.827591080995

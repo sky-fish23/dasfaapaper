@@ -1,0 +1,90 @@
+UOBM35   sentence-bert  cosine
+
+IJCAI19 mc K1 score: 2489
+IJCAI19 mc K2 score: 2487
+IJCAI19 mc K3 score: 2489
+IJCAI19 mc K4 score: 2487
+IJCAI19 mc K5 score: 2489
+IJCAI19 mc K6 score: 2487
+IJCAI19 mc K7 score: 2489
+IJCAI19 mc K8 score: 2487
+IJCAI19 mc K9 score: 2489
+IJCAI19 mc K10 score: 2487
+IJCAI19 mc K11 score: 2489
+IJCAI19 mc K12 score: 2489
+IJCAI19 mc K13 score: 2489
+IJCAI19 mc K14 score: 2489
+IJCAI19 mc K15 score: 2489
+IJCAI19 mc K16 score: 2487
+
+
+Cosine:
+Method 1 K1  score: 3165.10400390625
+Method 1 K2  score: 3164.859375
+Method 1 K3  score: 3165.653076171875
+Method 1 K4  score: 3164.729736328125
+Method 1 K5  score: 3164.98291015625
+Method 1 K6  score: 3164.73828125
+Method 1 K7  score: 3165.531982421875
+Method 1 K8  score: 3164.608642578125
+Method 1 K9  score: 3165.57080078125
+Method 1 K10  score: 3165.325927734375
+Method 1 K11  score: 3166.11962890625
+Method 1 K12  score: 3166.11962890625
+Method 1 K13  score: 3166.058837890625
+Method 1 K14  score: 3166.058837890625
+Method 1 K15  score: 3166.60791015625
+Method 1 K16  score: 3165.6845703125
+
+Method 2 K1  score: 4512.38720703125
+Method 2 K2  score: 4507.5537109375
+Method 2 K3  score: 4511.4638671875
+Method 2 K4  score: 4507.25
+Method 2 K5  score: 4512.0
+Method 2 K6  score: 4507.16650390625
+Method 2 K7  score: 4511.07666015625
+Method 2 K8  score: 4506.86279296875
+Method 2 K9  score: 4514.20703125
+Method 2 K10  score: 4509.3740234375
+Method 2 K11  score: 4513.2841796875
+Method 2 K12  score: 4513.2841796875
+Method 2 K13  score: 4512.36767578125
+Method 2 K14  score: 4512.36767578125
+Method 2 K15  score: 4511.4443359375
+Method 2 K16  score: 4507.23046875
+
+
+Euclidean
+Method 1 K1  score: 2926.7716436507376
+Method 1 K2  score: 2926.678299755305
+Method 1 K3  score: 2926.755627909492
+Method 1 K4  score: 2926.6579287611544
+Method 1 K5  score: 2926.745117790382
+Method 1 K6  score: 2926.6517738949497
+Method 1 K7  score: 2926.7291020491366
+Method 1 K8  score: 2926.631402900799
+Method 1 K9  score: 2927.0740251070106
+Method 1 K10  score: 2926.980681211578
+Method 1 K11  score: 2927.058009365765
+Method 1 K12  score: 2927.058009365765
+Method 1 K13  score: 2926.91752448763
+Method 1 K14  score: 2926.91752448763
+Method 1 K15  score: 2926.9015087463845
+Method 1 K16  score: 2926.803809598047
+
+Method 2 K1  score: 4058.7731915254403
+Method 2 K2  score: 4055.2623062888842
+Method 2 K3  score: 4057.9906122321704
+Method 2 K4  score: 4053.892243014285
+Method 2 K5  score: 4057.339950684593
+Method 2 K6  score: 4053.829065448037
+Method 2 K7  score: 4056.557371391323
+Method 2 K8  score: 4052.459002173438
+Method 2 K9  score: 4060.238243382725
+Method 2 K10  score: 4056.7273581461695
+Method 2 K11  score: 4059.4556640894552
+Method 2 K12  score: 4059.4556640894552
+Method 2 K13  score: 4058.0475275823237
+Method 2 K14  score: 4058.0475275823237
+Method 2 K15  score: 4057.264948289054
+Method 2 K16  score: 4053.166579071169

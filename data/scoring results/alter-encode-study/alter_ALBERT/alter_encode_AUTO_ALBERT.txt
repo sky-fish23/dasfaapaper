@@ -1,0 +1,32 @@
+alternative encoding
+AUTO  ALBERT
+
+cosine
+Method 1 K1  score: 8909.107896315823
+Method 1 K2  score: 8907.695629934307
+Method 1 K3  score: 8908.053321567832
+Method 1 K4  score: 8908.313607812379
+Method 1 K5  score: 8898.573575150353
+Method 1 K6  score: 7866.602421325535
+Method 2 K1  score: 9158.835244451628
+Method 2 K2  score: 9929.318229185777
+Method 2 K3  score: 9929.304065937718
+Method 2 K4  score: 9930.399511137155
+Method 2 K5  score: 9912.029073243391
+Method 2 K6  score: 9093.6586485716
+
+
+euclid
+
+Method 1 K1  score: 5899.752965439897
+Method 1 K2  score: 5899.747362934447
+Method 1 K3  score: 5899.802008656567
+Method 1 K4  score: 5899.816175310798
+Method 1 K5  score: 5893.464285979055
+Method 1 K6  score: 5192.266905871745
+Method 2 K1  score: 6461.464099974744
+Method 2 K2  score: 7090.349309572448
+Method 2 K3  score: 7089.491268171489
+Method 2 K4  score: 7089.306285747212
+Method 2 K5  score: 7076.266717722996
+Method 2 K6  score: 6399.091454255004

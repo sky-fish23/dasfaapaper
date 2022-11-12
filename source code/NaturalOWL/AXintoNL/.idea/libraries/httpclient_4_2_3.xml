@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="httpclient-4.2.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/httpclient-4.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/httpcore-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/jcl-over-slf4j-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/jena-arq-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/jena-core-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/jena-iri-0.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/jena-tdb-0.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/slf4j-api-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/slf4j-log4j12-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/xercesImpl-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-2.3.1/jena/xml-apis-1.4.01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

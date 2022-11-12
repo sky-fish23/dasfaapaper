@@ -1,0 +1,84 @@
+alternative encoding
+AUTO  RoBERTa
+
+Cosine
+Method 1 K1  score: 2630.1312625780215
+Method 1 K2  score: 3105.0177786236286
+Method 1 K3  score: 3105.1062967910957
+Method 1 K4  score: 3106.3492783456027
+Method 1 K5  score: 3097.9887699910046
+Method 1 K6  score: 2970.6377532531055
+Method 2 K1  score: 8979.077337633125
+Method 2 K2  score: 8993.632420625798
+Method 2 K3  score: 8993.771660578373
+Method 2 K4  score: 8993.995532316434
+Method 2 K5  score: 8984.13513607949
+Method 2 K6  score: 7926.913459492491
+Method 3 K1  score: 9218.629991762748
+Method 3 K2  score: 10012.139430122803
+Method 3 K3  score: 10012.044602113821
+Method 3 K4  score: 10013.337262850071
+Method 3 K5  score: 9994.90185999914
+Method 3 K6  score: 9152.549847272041
+2 ----------------
+Method 4 K1  score: 9673.34313131988
+Method 4 K2  score: 10488.169275043701
+Method 4 K3  score: 10488.212342914781
+Method 4 K4  score: 10490.260186702782
+Method 4 K5  score: 10470.522619938305
+Method 4 K6  score: 9607.498049134763
+3 ----------------
+Method 4 K1  score: 9567.509271485405
+Method 4 K2  score: 10373.578838881303
+Method 4 K3  score: 10373.611162218745
+Method 4 K4  score: 10375.682760821664
+Method 4 K5  score: 10356.305159984719
+Method 4 K6  score: 9502.188948100264
+4 ----------------
+Method 4 K1  score: 9498.541643724062
+Method 4 K2  score: 10299.54116166126
+Method 4 K3  score: 10299.52773480821
+Method 4 K4  score: 10301.591903916893
+Method 4 K5  score: 10282.433337451284
+Method 4 K6  score: 9433.618397289318
+
+Euclid
+Method 1 K1  score: 1926.9822412458093
+Method 1 K2  score: 2291.038367147948
+Method 1 K3  score: 2291.066291468202
+Method 1 K4  score: 2291.968474926561
+Method 1 K5  score: 2285.7622657738243
+Method 1 K6  score: 2190.233589353948
+Method 2 K1  score: 8108.6833265266
+Method 2 K2  score: 8113.717668657322
+Method 2 K3  score: 8113.76188019654
+Method 2 K4  score: 8113.832768661512
+Method 2 K5  score: 8105.089265820384
+Method 2 K6  score: 7139.041692535397
+Method 3 K1  score: 8226.874582353417
+Method 3 K2  score: 8961.106067476647
+Method 3 K3  score: 8960.689780137565
+Method 3 K4  score: 8961.493222395204
+Method 3 K5  score: 8944.996187462706
+Method 3 K6  score: 8161.90736109319
+2 ----------------
+Method 4 K1  score: 9068.551317486157
+Method 4 K2  score: 9825.823670222811
+Method 4 K3  score: 9825.875745505275
+Method 4 K4  score: 9827.772526322631
+Method 4 K5  score: 9809.373127277693
+Method 4 K6  score: 9008.861280606045
+3 ----------------
+Method 4 K1  score: 8709.204749829032
+Method 4 K2  score: 9437.065251429372
+Method 4 K3  score: 9437.10396910154
+Method 4 K4  score: 9438.97093331508
+Method 4 K5  score: 9421.445831938929
+Method 4 K6  score: 8651.303673158525
+4 ----------------
+Method 4 K1  score: 8510.047124517481
+Method 4 K2  score: 9222.402222704355
+Method 4 K3  score: 9222.399430015837
+Method 4 K4  score: 9224.229777365948
+Method 4 K5  score: 9207.174474457534
+Method 4 K6  score: 8453.173071580746

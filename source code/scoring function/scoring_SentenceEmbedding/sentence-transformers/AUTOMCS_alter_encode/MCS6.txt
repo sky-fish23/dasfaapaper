@@ -1,0 +1,1641 @@
+endDate range in xsd:dateTime
+
+endDate has domain in edasConference
+
+hasBiography has domain in edasPerson
+
+hasBiography range in xsd:string
+
+hasCity range in xsd:string
+
+hasCity has domain in ContactInformation
+
+hasCostAmount range in xsd:int
+
+hasCostAmount has domain in Sponsorship
+
+hasCostCurrency has domain in Sponsorship
+
+hasCostCurrency range in xsd:string
+
+hasEmail has domain in ContactInformation or edasPerson
+
+hasEmail range in xsd:string
+
+hasEndDateTime range in xsd:dateTime
+
+hasEndDateTime has domain in ConferenceEvent
+
+hasFirstName range in xsd:string
+
+hasFirstName has domain in edasPerson
+
+hasLastName has domain in edasPerson
+
+hasLastName range in xsd:string
+
+hasName range in xsd:string
+
+hasName has domain in edasConference
+
+hasPhone has domain in ContactInformation
+
+hasPhone range in xsd:string
+
+hasPostalCode range in xsd:string
+
+hasPostalCode has domain in ContactInformation
+
+hasStartDateTime range in xsd:dateTime
+
+hasStartDateTime has domain in ConferenceEvent
+
+hasStreet range in xsd:string
+
+hasStreet has domain in ContactInformation
+
+hasSubmissionDeadline has domain in Call
+
+hasSubmissionDeadline range in xsd:dateTime
+
+hasSubmissionInstructions range in xsd:string
+
+hasSubmissionInstructions has domain in Call
+
+manuscriptDueOn has domain in edasConference
+
+manuscriptDueOn range in xsd:dateTime
+
+paperDueOn has domain in edasConference
+
+paperDueOn range in xsd:dateTime
+
+registrationDueOn range in xsd:dateTime
+
+registrationDueOn has domain in edasConference
+
+startDate range in xsd:dateTime
+
+startDate has domain in edasConference
+
+AcademicEvent is subclass of ConferenceEvent
+
+AcademicEvent disjoint with NonAcademicEvent
+
+AcademicEvent disjoint with NonAcademicEvent
+
+ConferenceEvent disjoint with ReviewRating
+
+ConferenceEvent disjoint with ReviewForm
+
+ConferenceEvent disjoint with PersonalHistory
+
+ConferenceEvent disjoint with Topic
+
+ConferenceEvent disjoint with Organization
+
+ConferenceEvent disjoint with Place
+
+ConferenceEvent is subclass of AcademicEvent
+
+ConferenceEvent disjoint with ReviewQuestion
+
+ConferenceEvent disjoint with Sponsorship
+
+ConferenceEvent disjoint with ConferenceSession
+
+ConferenceEvent disjoint with Country
+
+ConferenceEvent disjoint with edasDocument
+
+ConferenceEvent disjoint with edasPerson
+
+ConferenceEvent disjoint with ContactInformation
+
+NonAcademicEvent is subclass of ConferenceEvent
+
+BreakEvent is equivalent to CoffeeBreak or FreeTimeBreak or MealBreak
+
+BreakEvent is subclass of NonAcademicEvent
+
+BreakEvent disjoint with MealEvent
+
+CoffeeBreak is subclass of BreakEvent
+
+FreeTimeBreak is subclass of BreakEvent
+
+MealBreak is subclass of BreakEvent
+
+MealEvent is subclass of NonAcademicEvent
+
+ConferenceDinner is subclass of MealEvent
+
+SocialEvent is subclass of NonAcademicEvent
+
+Excursion is subclass of SocialEvent
+
+Reception is subclass of SocialEvent
+
+OrganizationalMeeting disjoint with PaperPresentation
+
+OrganizationalMeeting is subclass of AcademicEvent
+
+OrganizationalMeeting disjoint with TalkEvent
+
+OrganizationalMeeting disjoint with edasWorkshop
+
+PaperPresentation disjoint with edasWorkshop
+
+PaperPresentation disjoint with TalkEvent
+
+PaperPresentation is subclass of OrganizationalMeeting
+
+TalkEvent is subclass of AcademicEvent
+
+TalkEvent disjoint with edasWorkshop
+
+ClosingTalk is subclass of TalkEvent
+
+ClosingTalk disjoint with WelcomeTalk
+
+WelcomeTalk is subclass of TalkEvent
+
+cocusWorkshop is equivalent to edasWorkshop
+
+edasWorkshop is subclass of AcademicEvent
+
+Event_Approval is subclass of Activity
+
+Event_Approval is subclass of what has_result of only Approval_Email
+
+Event_Creation is subclass of Activity
+
+Event_Creation is subclass of what has_result of some Event
+
+Registration is subclass of what has_result of some User
+
+Registration is subclass of Activity
+
+Request is subclass of Activity
+
+Help_Request is subclass of Request
+
+Assistance is subclass of Help_Request
+
+Feature_Request is subclass of Help_Request
+
+Misc is subclass of Help_Request
+
+Call disjoint with edasConference
+
+Call disjoint with ConferenceEvent
+
+Call disjoint with ConferenceSession
+
+Call disjoint with ContactInformation
+
+Call disjoint with Country
+
+Call disjoint with edasDocument
+
+Call disjoint with Organization
+
+Call disjoint with edasPerson
+
+Call disjoint with PersonalHistory
+
+Call disjoint with Place
+
+Call disjoint with ReviewForm
+
+Call disjoint with ReviewQuestion
+
+Call disjoint with ReviewRating
+
+Call disjoint with Sponsorship
+
+Call disjoint with Topic
+
+CallForManuscripts is subclass of Call
+
+CallForPapers is subclass of Call
+
+CallForReviews is subclass of Call
+
+edasConference is equivalent to cocusConference
+
+edasConference disjoint with Organization
+
+edasConference disjoint with Place
+
+edasConference disjoint with ReviewForm
+
+edasConference disjoint with PersonalHistory
+
+edasConference disjoint with ReviewRating
+
+edasConference disjoint with ConferenceEvent
+
+edasConference disjoint with Sponsorship
+
+edasConference is subclass of what hasName of exactly one rdfs:Literal
+
+edasConference is subclass of what has paperDueOn the date of at most one rdfs:Literal
+
+edasConference disjoint with ReviewQuestion
+
+edasConference disjoint with ConferenceSession
+
+edasConference disjoint with edasPaper
+
+edasConference disjoint with edasPerson
+
+edasConference is subclass of what hasTopic of exactly one owl:Thing
+
+edasConference disjoint with Topic
+
+edasConference disjoint with Country
+
+edasConference disjoint with ContactInformation
+
+edasConference is subclass of what has manuscriptDueOn the date of at most one rdfs:Literal
+
+edasConference disjoint with edasDocument
+
+edasConference is subclass of waht has registrationDueOn the date of at most one rdfs:Literal
+
+edasConference is subclass of what has startDate of at most one rdfs:Literal
+
+edasConference is subclass of what has endDate of at most one rdfs:Literal
+
+edasConference is subclass of what hasCountry of exactly one owl:Thing
+
+SingleLevelConference is equivalent to edasConference and not TwoLevelConference and what hasMember of only edasPerson
+
+TwoLevelConference is equivalent to edasConference and what hasMember of some TPCMember and what hasMember of only edasPerson
+
+ConferenceEvent disjoint with ReviewRating
+
+ConferenceEvent disjoint with ReviewForm
+
+ConferenceEvent disjoint with PersonalHistory
+
+ConferenceEvent disjoint with Topic
+
+ConferenceEvent disjoint with Organization
+
+ConferenceEvent disjoint with Place
+
+ConferenceEvent is subclass of AcademicEvent
+
+ConferenceEvent disjoint with ReviewQuestion
+
+ConferenceEvent disjoint with Sponsorship
+
+ConferenceEvent disjoint with ConferenceSession
+
+ConferenceEvent disjoint with Country
+
+ConferenceEvent disjoint with edasDocument
+
+ConferenceEvent disjoint with edasPerson
+
+ConferenceEvent disjoint with ContactInformation
+
+AcademicEvent is subclass of ConferenceEvent
+
+AcademicEvent disjoint with NonAcademicEvent
+
+OrganizationalMeeting disjoint with PaperPresentation
+
+OrganizationalMeeting is subclass of AcademicEvent
+
+OrganizationalMeeting disjoint with TalkEvent
+
+OrganizationalMeeting disjoint with edasWorkshop
+
+PaperPresentation disjoint with edasWorkshop
+
+PaperPresentation disjoint with TalkEvent
+
+PaperPresentation is subclass of OrganizationalMeeting
+
+TalkEvent is subclass of AcademicEvent
+
+TalkEvent disjoint with edasWorkshop
+
+ClosingTalk is subclass of TalkEvent
+
+ClosingTalk disjoint with WelcomeTalk
+
+WelcomeTalk is subclass of TalkEvent
+
+edasWorkshop is subclass of AcademicEvent
+
+NonAcademicEvent is subclass of ConferenceEvent
+
+BreakEvent is equivalent to CoffeeBreak or FreeTimeBreak or MealBreak
+
+BreakEvent is subclass of NonAcademicEvent
+
+BreakEvent disjoint with MealEvent
+
+CoffeeBreak is subclass of BreakEvent
+
+FreeTimeBreak is subclass of BreakEvent
+
+MealBreak is subclass of BreakEvent
+
+MealEvent is subclass of NonAcademicEvent
+
+ConferenceDinner is subclass of MealEvent
+
+SocialEvent is subclass of NonAcademicEvent
+
+Excursion is subclass of SocialEvent
+
+Reception is subclass of SocialEvent
+
+ConferenceSession disjoint with ReviewForm
+
+ConferenceSession disjoint with ReviewRating
+
+ConferenceSession disjoint with Organization
+
+ConferenceSession disjoint with PersonalHistory
+
+ConferenceSession disjoint with ContactInformation
+
+ConferenceSession disjoint with ReviewQuestion
+
+ConferenceSession disjoint with edasPerson
+
+ConferenceSession disjoint with edasDocument
+
+ConferenceSession disjoint with Place
+
+ConferenceSession disjoint with Sponsorship
+
+ConferenceSession disjoint with Country
+
+ConferenceSession disjoint with Topic
+
+ContactInformation disjoint with ReviewQuestion
+
+ContactInformation disjoint with Topic
+
+ContactInformation disjoint with edasDocument
+
+ContactInformation disjoint with Organization
+
+ContactInformation disjoint with Place
+
+ContactInformation disjoint with PersonalHistory
+
+ContactInformation disjoint with ReviewRating
+
+ContactInformation disjoint with Country
+
+ContactInformation disjoint with Sponsorship
+
+ContactInformation disjoint with ReviewForm
+
+Country disjoint with Sponsorship
+
+Country disjoint with Place
+
+Country disjoint with Organization
+
+Country disjoint with ReviewQuestion
+
+Country disjoint with ReviewForm
+
+Country disjoint with ReviewRating
+
+Country disjoint with Topic
+
+Country disjoint with PersonalHistory
+
+Country disjoint with edasDocument
+
+Country disjoint with edasPerson
+
+Detail is subclass of what is modified_by some cocusPerson
+
+cocusDocument is subclass of what is used_by some cocusPerson
+
+cocusDocument is equivalent to what is created_by some cocusPerson
+
+cocusDocument is equivalent to edasDocument
+
+cocusDocument is subclass of owl:Thing
+
+cocusPerson is subclass of owl:Thing
+
+Detail is subclass of owl:Thing
+
+edasConference is subclass of owl:Thing
+
+Role is subclass of owl:Thing
+
+Email is subclass of what is recieved_by some cocusPerson
+
+Email is subclass of cocusDocument
+
+Approval_Email is subclass of Email
+
+Group_Email is subclass of Email
+
+Notification_Email is subclass of Email
+
+Rejection_Email is subclass of Email
+
+cocusPaper is subclass of cocusDocument
+
+cocusPaper is subclass of what is submited__by some Corresponding_Author
+
+cocusPaper is equivalent to edasPaper
+
+Abstract is subclass of cocusPaper
+
+Full_Paper is subclass of cocusPaper
+
+Invited_Paper is subclass of cocusPaper
+
+Short_Paper is subclass of cocusPaper
+
+cocusReview is subclass of cocusDocument
+
+cocusReview is equivalent to edasReview
+
+Submission is subclass of cocusDocument
+
+Template is subclass of cocusDocument
+
+Template is subclass of what is used_by some cocusPerson
+
+edasDocument disjoint with edasPerson
+
+edasDocument disjoint with Topic
+
+edasDocument disjoint with Organization
+
+edasDocument disjoint with Place
+
+edasDocument disjoint with Sponsorship
+
+edasDocument disjoint with ReviewRating
+
+edasDocument disjoint with PersonalHistory
+
+edasDocument disjoint with ReviewForm
+
+edasDocument disjoint with ReviewQuestion
+
+MealMenu disjoint with Programme
+
+MealMenu disjoint with edasReview
+
+MealMenu disjoint with edasPaper
+
+MealMenu disjoint with SlideSet
+
+MealMenu is subclass of edasDocument
+
+edasPaper disjoint with SlideSet
+
+edasPaper disjoint with Programme
+
+edasPaper disjoint with edasReview
+
+edasPaper is subclass of edasDocument
+
+AcceptedPaper disjoint with ActivePaper
+
+AcceptedPaper is subclass of edasPaper
+
+AcceptedPaper disjoint with RejectedPaper
+
+AcceptedPaper disjoint with PublishedPaper
+
+AcceptedPaper disjoint with PendingPaper
+
+AcceptedPaper disjoint with WithdrawnPaper
+
+ActivePaper disjoint with PendingPaper
+
+ActivePaper disjoint with WithdrawnPaper
+
+ActivePaper disjoint with RejectedPaper
+
+ActivePaper is subclass of edasPaper
+
+ActivePaper disjoint with PublishedPaper
+
+RatedPapers is subclass of ActivePaper
+
+RatedPapers is equivalent to what hasRating of some ReviewRating
+
+PublishedPaper disjoint with WithdrawnPaper
+
+PublishedPaper is subclass of edasPaper
+
+PublishedPaper disjoint with RejectedPaper
+
+PendingPaper is subclass of PublishedPaper
+
+PendingPaper disjoint with WithdrawnPaper
+
+PendingPaper disjoint with RejectedPaper
+
+PendingPaper disjoint with PublishedPaper
+
+RejectedPaper is subclass of edasPaper
+
+RejectedPaper disjoint with WithdrawnPaper
+
+WithdrawnPaper is subclass of edasPaper
+
+Programme disjoint with SlideSet
+
+Programme is subclass of edasDocument
+
+Programme disjoint with edasReview
+
+edasReview is subclass of edasDocument
+
+edasReview disjoint with SlideSet
+
+SlideSet is subclass of edasDocument
+
+Event is equivalent to what is created_by some cocusPerson
+
+Event is subclass of what is confirmed_by some Approval_Email
+
+Event is subclass of owl:Thing
+
+Event is subclass of what is conists_of some Event_Tracks
+
+cocusConference is subclass of Event
+
+Symposium is subclass of Event
+
+cocusWorkshop is subclass of Event
+
+Event_Setup is equivalent to what define some Event
+
+Email_Template is subclass of Event_Setup
+
+Event_Tracks is subclass of Event_Setup
+
+Paper_Typologies is subclass of Event_Setup
+
+Research_Topic is subclass of Event_Setup
+
+Review_Form is subclass of Event_Setup
+
+Preview is subclass of Review_Form
+
+Review_Form_Setup is subclass of Review_Form
+
+Submission_Template is subclass of Event_Setup
+
+Organization disjoint with Place
+
+Organization disjoint with PersonalHistory
+
+Organization disjoint with ReviewForm
+
+Organization disjoint with ReviewRating
+
+Organization disjoint with Sponsorship
+
+Organization disjoint with cocusPerson
+
+Organization disjoint with Topic
+
+Organization disjoint with ReviewQuestion
+
+AcademiaOrganization disjoint with IndustryOrganization
+
+AcademiaOrganization disjoint with GovernmentOrganization
+
+AcademiaOrganization disjoint with NGO
+
+AcademiaOrganization is subclass of Organization
+
+GovernmentOrganization disjoint with IndustryOrganization
+
+GovernmentOrganization is subclass of Organization
+
+GovernmentOrganization disjoint with NGO
+
+IndustryOrganization disjoint with NGO
+
+IndustryOrganization is subclass of Organization
+
+NGO is subclass of Organization
+
+cocusPerson is subclass of who get some Inforamtion
+
+edasPerson is equivalent to cocusPerson
+
+Administrator is subclass of who approve some Event
+
+Administrator is equivalent to who execute only Admin_Role
+
+Administrator is subclass of cocusPerson
+
+Administrator is subclass of who execute some Event_Approval
+
+User is subclass of who send some Help_Request
+
+User is subclass of who take_part_in some Event
+
+User is equivalent to who execute some Role and who register some Account
+
+User is subclass of cocusPerson
+
+cocusAuthor is equivalent to edasAuthor
+
+cocusAuthor is subclass of who add some cocusAuthor
+
+cocusAuthor is subclass of who execute some Event_Creation
+
+cocusAuthor is subclass of User
+
+cocusAuthor is subclass of who remove some cocusAuthor
+
+cocusAuthor is subclass of who recieve some Approval_Email or Rejection_Email
+
+Corresponding_Author is subclass of cocusAuthor
+
+Committee is subclass of User
+
+edasPerson disjoint with PersonalHistory
+
+Person disjoint with ReviewForm
+
+edasPerson disjoint with ReviewRating
+
+edasPerson disjoint with ReviewQuestion
+
+edasPerson disjoint with Sponsorship
+
+edasPerson disjoint with Topic
+
+edasPerson disjoint with Place
+
+Attendee is subclass of edasPerson
+
+edasAuthor is equivalent to edasPerson and who hasRelatedDocument of some edasPaper
+
+edasAuthor disjoint with TPCMember
+
+edasAuthor disjoint with ConferenceChair
+
+edasAuthor disjoint with SessionChair
+
+Presenter is subclass of edasAuthor
+
+ConferenceChair is subclass of edasPerson
+
+Reviewer is equivalent to edasPerson and who isReviewing some edasPaper
+
+SessionChair is subclass of edasPerson
+
+TPCMember is subclass of edasPerson
+
+PersonalHistory disjoint with ReviewQuestion
+
+PersonalHistory disjoint with ReviewRating
+
+PersonalHistory disjoint with ReviewForm
+
+PersonalHistory disjoint with Place
+
+PersonalHistory disjoint with Sponsorship
+
+PersonalHistory disjoint with Topic
+
+PersonalPublicationHistory is subclass of PersonalHistory
+
+PersonalReviewHistory is subclass of PersonalHistory
+
+Place disjoint with Sponsorship
+
+Place disjoint with ReviewQuestion
+
+Place disjoint with ReviewRating
+
+Place disjoint with ReviewForm
+
+Place disjoint with Topic
+
+AccommodationPlace is subclass of Place
+
+ConferenceVenuePlace is subclass of Place
+
+DiningPlace is subclass of Place
+
+MeetingRoomPlace is subclass of Place
+
+ReviewForm disjoint with ReviewRating
+
+ReviewForm disjoint with Sponsorship
+
+ReviewForm disjoint with ReviewQuestion
+
+ReviewForm disjoint with Topic
+
+ReviewQuestion disjoint with Sponsorship
+
+ReviewQuestion disjoint with ReviewRating
+
+ReviewQuestion disjoint with Topic
+
+NumericalReviewQuestion is subclass of ReviewQuestion
+
+TextualReviewQuestion is subclass of ReviewQuestion
+
+ReviewRating disjoint with Topic
+
+ReviewRating is equivalent to AcceptRating or AccpetIfRoomRating or RejectRating or WeekRejectRating
+
+ReviewRating disjoint with Sponsorship
+
+AcceptRating disjoint with RejectRating
+
+AcceptRating disjoint with AccpetIfRoomRating
+
+AcceptRating is subclass of ReviewRating
+
+AcceptRating disjoint with WeekRejectRating
+
+AccpetIfRoomRating is subclass of ReviewRating
+
+AccpetIfRoomRating disjoint with RejectRating
+
+AccpetIfRoomRating disjoint with WeekRejectRating
+
+RejectRating is subclass of ReviewRating
+
+RejectRating disjoint with WeekRejectRating
+
+WeekRejectRating is subclass of ReviewRating
+
+Role is subclass of what is assigned_by some Administrator
+
+Admin_Role is subclass of Role
+
+Author_Role is subclass of Role
+
+Committe_Role is subclass of Role
+
+Head_Role is subclass of Role
+
+Reviewer_Role is subclass of Role
+
+Sponsorship disjoint with Topic
+
+TravelGrant is subclass of Sponsorship
+
+AntennasTopic disjoint with PerformanceTopic
+
+AntennasTopic disjoint with CADTopic
+
+AntennasTopic disjoint with MultimediaTopic
+
+AntennasTopic disjoint with WirelessCommunicationsTopic
+
+AntennasTopic disjoint with CommunicationsTopic
+
+AntennasTopic disjoint with MedicineTopic
+
+AntennasTopic disjoint with ComputerNetworksTopic
+
+AntennasTopic disjoint with OperatingTopicsystems
+
+AntennasTopic is subclass of Topic
+
+AntennasTopic disjoint with RadioCommunicationsTopic
+
+AntennasTopic disjoint with CryptographyTopic
+
+AntennasTopic disjoint with MobileComputingTopic
+
+AntennasTopic disjoint with SignalProcessingTopic
+
+AntennasTopic disjoint with ComputerArchitectureTopic
+
+AntennasTopic disjoint with TestOnlyTopic
+
+AntennasTopic disjoint with MicroelectronicsTopic
+
+AntennasTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+AntennasTopic disjoint with CommunicationTheoryTopic
+
+AntennasTopic disjoint with PowerlineTransmissionTopic
+
+AntennasTopic disjoint with SecurityTopic
+
+AntennasTopic disjoint with ParallelAndDistributedComputingTopic
+
+CADTopic disjoint with MultimediaTopic
+
+CADTopic disjoint with PowerlineTransmissionTopic
+
+CADTopic disjoint with SecurityTopic
+
+CADTopic disjoint with WirelessCommunicationsTopic
+
+CADTopic disjoint with PerformanceTopic
+
+CADTopic disjoint with ParallelAndDistributedComputingTopic
+
+CADTopic disjoint with CommunicationsTopic
+
+CADTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+CADTopic disjoint with SignalProcessingTopic
+
+CADTopic disjoint with CryptographyTopic
+
+CADTopic disjoint with MicroelectronicsTopic
+
+CADTopic disjoint with ComputerArchitectureTopic
+
+CADTopic disjoint with TestOnlyTopic
+
+CADTopic disjoint with CommunicationTheoryTopic
+
+CADTopic disjoint with RadioCommunicationsTopic
+
+CADTopic disjoint with OperatingTopicsystems
+
+CADTopic disjoint with MedicineTopic
+
+CADTopic disjoint with ComputerNetworksTopic
+
+CADTopic is subclass of Topic
+
+CADTopic disjoint with MobileComputingTopic
+
+CommunicationsTopic disjoint with MicroelectronicsTopic
+
+CommunicationsTopic disjoint with MobileComputingTopic
+
+CommunicationsTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+CommunicationsTopic disjoint with ComputerNetworksTopic
+
+CommunicationsTopic disjoint with SignalProcessingTopic
+
+CommunicationsTopic disjoint with CryptographyTopic
+
+CommunicationsTopic is subclass of Topic
+
+CommunicationsTopic disjoint with TestOnlyTopic
+
+CommunicationsTopic disjoint with OperatingTopicsystems
+
+CommunicationsTopic disjoint with ComputerArchitectureTopic
+
+CommunicationsTopic disjoint with RadioCommunicationsTopic
+
+CommunicationsTopic disjoint with MedicineTopic
+
+CommunicationsTopic disjoint with ParallelAndDistributedComputingTopic
+
+CommunicationsTopic disjoint with WirelessCommunicationsTopic
+
+CommunicationsTopic disjoint with MultimediaTopic
+
+CommunicationsTopic disjoint with PowerlineTransmissionTopic
+
+CommunicationsTopic disjoint with PerformanceTopic
+
+CommunicationsTopic disjoint with SecurityTopic
+
+CommunicationTheoryTopic disjoint with ParallelAndDistributedComputingTopic
+
+CommunicationTheoryTopic disjoint with MedicineTopic
+
+CommunicationTheoryTopic disjoint with CommunicationsTopic
+
+CommunicationTheoryTopic disjoint with OperatingTopicsystems
+
+CommunicationTheoryTopic disjoint with WirelessCommunicationsTopic
+
+CommunicationTheoryTopic disjoint with ComputerArchitectureTopic
+
+CommunicationTheoryTopic disjoint with TestOnlyTopic
+
+CommunicationTheoryTopic disjoint with MultimediaTopic
+
+CommunicationTheoryTopic disjoint with PowerlineTransmissionTopic
+
+CommunicationTheoryTopic disjoint with SecurityTopic
+
+CommunicationTheoryTopic disjoint with ComputerNetworksTopic
+
+CommunicationTheoryTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+CommunicationTheoryTopic disjoint with MicroelectronicsTopic
+
+CommunicationTheoryTopic disjoint with PerformanceTopic
+
+CommunicationTheoryTopic disjoint with SignalProcessingTopic
+
+CommunicationTheoryTopic is subclass of Topic
+
+CommunicationTheoryTopic disjoint with CryptographyTopic
+
+CommunicationTheoryTopic disjoint with RadioCommunicationsTopic
+
+CommunicationTheoryTopic disjoint with MobileComputingTopic
+
+ComputerArchitectureTopic disjoint with CryptographyTopic
+
+ComputerArchitectureTopic disjoint with SignalProcessingTopic
+
+ComputerArchitectureTopic disjoint with MicroelectronicsTopic
+
+ComputerArchitectureTopic disjoint with TestOnlyTopic
+
+ComputerArchitectureTopic disjoint with ParallelAndDistributedComputingTopic
+
+ComputerArchitectureTopic disjoint with SecurityTopic
+
+ComputerArchitectureTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+ComputerArchitectureTopic disjoint with MultimediaTopic
+
+ComputerArchitectureTopic disjoint with PowerlineTransmissionTopic
+
+ComputerArchitectureTopic disjoint with WirelessCommunicationsTopic
+
+ComputerArchitectureTopic disjoint with PerformanceTopic
+
+ComputerArchitectureTopic disjoint with RadioCommunicationsTopic
+
+ComputerArchitectureTopic disjoint with OperatingTopicsystems
+
+ComputerArchitectureTopic disjoint with MedicineTopic
+
+ComputerArchitectureTopic disjoint with ComputerNetworksTopic
+
+ComputerArchitectureTopic is subclass of Topic
+
+ComputerArchitectureTopic disjoint with MobileComputingTopic
+
+ComputerNetworksTopic disjoint with MicroelectronicsTopic
+
+ComputerNetworksTopic is subclass of Topic
+
+ComputerNetworksTopic disjoint with PowerlineTransmissionTopic
+
+ComputerNetworksTopic disjoint with TestOnlyTopic
+
+ComputerNetworksTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+ComputerNetworksTopic disjoint with MultimediaTopic
+
+ComputerNetworksTopic disjoint with RadioCommunicationsTopic
+
+ComputerNetworksTopic disjoint with WirelessCommunicationsTopic
+
+ComputerNetworksTopic disjoint with ParallelAndDistributedComputingTopic
+
+ComputerNetworksTopic disjoint with MedicineTopic
+
+ComputerNetworksTopic disjoint with SecurityTopic
+
+ComputerNetworksTopic disjoint with OperatingTopicsystems
+
+ComputerNetworksTopic disjoint with PerformanceTopic
+
+ComputerNetworksTopic disjoint with MobileComputingTopic
+
+ComputerNetworksTopic disjoint with CryptographyTopic
+
+ComputerNetworksTopic disjoint with SignalProcessingTopic
+
+ComputerNetworksAapplicationsTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksSensorTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksOpticalTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksSecurityTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksEnterpriseTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksManagementTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksMeasurementsTopic
+
+ComputerNetworksAapplicationsTopic disjoint with ComputerNetworksSwitchingTopic	
+
+ComputerNetworksEnterpriseTopic disjoint with ComputerNetworksMeasurementsTopic
+
+ComputerNetworksEnterpriseTopic disjoint with ComputerNetworksSensorTopic
+
+ComputerNetworksEnterpriseTopic disjoint with ComputerNetworksSecurityTopic
+
+ComputerNetworksEnterpriseTopic disjoint with ComputerNetworksManagementTopic
+
+ComputerNetworksEnterpriseTopic disjoint with ComputerNetworksSwitchingTopic
+
+ComputerNetworksEnterpriseTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksEnterpriseTopic disjoint with ComputerNetworksOpticalTopic
+
+ComputerNetworksManagementTopic disjoint with ComputerNetworksSecurityTopic
+
+ComputerNetworksManagementTopic disjoint with ComputerNetworksSwitchingTopic
+
+ComputerNetworksManagementTopic disjoint with ComputerNetworksMeasurementsTopic
+
+ComputerNetworksManagementTopic disjoint with ComputerNetworksSensorTopic
+
+ComputerNetworksManagementTopic disjoint with ComputerNetworksOpticalTopic
+
+ComputerNetworksManagementTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksMeasurementsTopic disjoint with ComputerNetworksSecurityTopic
+
+ComputerNetworksMeasurementsTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksMeasurements Topic disjoint with ComputerNetworksOpticalTopic
+
+ComputerNetworksMeasurementsTopic disjoint with ComputerNetworksSwitchingTopic
+
+ComputerNetworksMeasurementsTopic disjoint with ComputerNetworksSensorTopic
+
+ComputerNetworksOpticalTopic disjoint with ComputerNetworksSwitchingTopic
+
+ComputerNetworksOpticalTopic disjoint with ComputerNetworksSecurityTopic
+
+ComputerNetworksOpticalTopic disjoint with ComputerNetworksSensorTopic
+
+ComputerNetworksOpticalTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksSecurityTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksSecurityTopic disjoint with ComputerNetworksSensorTopic
+
+ComputerNetworksSecurityTopic disjoint with ComputerNetworksSwitchingTopic
+
+ComputerNetworksSensorTopic is subclass of ComputerNetworksTopic
+
+ComputerNetworksSensorTopic disjoint with ComputerNetworksSwitchingTopic
+
+ComputerNetworksSwitchingTopic is subclass of ComputerNetworksTopic
+
+CryptographyTopic disjoint with MicroelectronicsTopic
+
+CryptographyTopic is subclass of Topic
+
+CryptographyTopic disjoint with SignalProcessingTopic
+
+CryptographyTopic disjoint with TestOnlyTopic
+
+CryptographyTopic disjoint with MobileComputingTopic
+
+CryptographyTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+CryptographyTopic disjoint with MedicineTopic
+
+CryptographyTopic disjoint with WirelessCommunicationsTopic
+
+CryptographyTopic disjoint with OperatingTopicsystems
+
+CryptographyTopic disjoint with SecurityTopic
+
+CryptographyTopic disjoint with ParallelAndDistributedComputingTopic
+
+CryptographyTopic disjoint with MultimediaTopic
+
+CryptographyTopic disjoint with RadioCommunicationsTopic
+
+CryptographyTopic disjoint with PowerlineTransmissionTopic
+
+CryptographyTopic disjoint with PerformanceTopic
+
+MedicineTopic disjoint with WirelessCommunicationsTopic
+
+MedicineTopic disjoint with SecurityTopic
+
+MedicineTopic disjoint with OperatingTopicsystems
+
+MedicineTopic disjoint with MultimediaTopic
+
+MedicineTopic disjoint with PerformanceTopic
+
+MedicineTopic disjoint with ParallelAndDistributedComputingTopic
+
+MedicineTopic disjoint with PowerlineTransmissionTopic
+
+MedicineTopic disjoint with MicroelectronicsTopic
+
+MedicineTopic disjoint with SignalProcessingTopic
+
+MedicineTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+MedicineTopic disjoint with TestOnlyTopic
+
+MedicineTopic disjoint with RadioCommunicationsTopic
+
+MedicineTopic disjoint with MobileComputingTopic
+
+MedicineTopic is subclass of Topic
+
+MicroelectronicsTopic disjoint with MultimediaTopic
+
+MicroelectronicsTopic disjoint with SecurityTopic
+
+MicroelectronicsTopic disjoint with PowerlineTransmissionTopic
+
+MicroelectronicsTopic disjoint with RadioCommunicationsTopic
+
+MicroelectronicsTopic disjoint with MobileComputingTopic
+
+MicroelectronicsTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+MicroelectronicsTopic disjoint with OperatingTopicsystems
+
+MicroelectronicsTopic disjoint with WirelessCommunicationsTopic
+
+MicroelectronicsTopic disjoint with TestOnlyTopic
+
+MicroelectronicsTopic disjoint with SignalProcessingTopic
+
+MicroelectronicsTopic is subclass of Topic
+
+MicroelectronicsTopic disjoint with ParallelAndDistributedComputingTopic
+
+MicroelectronicsTopic disjoint with PerformanceTopic
+
+MobileComputingTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+MobileComputingTopic disjoint with MultimediaTopic
+
+MobileComputingTopic disjoint with PowerlineTransmissionTopic
+
+MobileComputingTopic disjoint with RadioCommunicationsTopic
+
+MobileComputingTopic disjoint with ParallelAndDistributedComputingTopic
+
+MobileComputingTopic disjoint with SecurityTopic
+
+MobileComputingTopic disjoint with TestOnlyTopic
+
+MobileComputingTopic disjoint with WirelessCommunicationsTopic
+
+MobileComputingTopic disjoint with OperatingTopicsystems
+
+MobileComputingTopic disjoint with SignalProcessingTopic
+
+MobileComputingTopic disjoint with PerformanceTopic
+
+MobileComputingTopic is subclass of Topic
+
+MultimediaTopic disjoint with PerformanceTopic
+
+MultimediaTopic disjoint with SecurityTopic
+
+MultimediaTopic disjoint with PowerlineTransmissionTopic
+
+MultimediaTopic disjoint with RadioCommunicationsTopic
+
+MultimediaTopic disjoint with SignalProcessingTopic
+
+MultimediaTopic disjoint with TestOnlyTopic
+
+MultimediaTopic disjoint with ParallelAndDistributedComputingTopic
+
+MultimediaTopic is subclass of Topic
+
+MultimediaTopic disjoint with OperatingTopicsystems
+
+MultimediaTopic disjoint with WirelessCommunicationsTopic
+
+MultimediaTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+OperatingTopicsystems disjoint with SignalProcessingTopic
+
+OperatingTopicsystems disjoint with ParallelAndDistributedComputingTopic
+
+OperatingTopicsystems disjoint with RadioCommunicationsTopic
+
+OperatingTopicsystems disjoint with WirelessCommunicationsTopic
+
+OperatingTopicsystems is subclass of Topic
+
+OperatingTopicsystems disjoint with TestOnlyTopic
+
+OperatingTopicsystems disjoint with SatelliteAndSpaceCommunicationsTopic
+
+OperatingTopicsystems disjoint with PowerlineTransmissionTopic
+
+OperatingTopicsystems disjoint with SecurityTopic
+
+OperatingTopicsystems disjoint with PerformanceTopic
+
+ParallelAndDistributedComputingTopic disjoint with WirelessCommunicationsTopic
+
+ParallelAndDistributedComputingTopic disjoint with SecurityTopic
+
+ParallelAndDistributedComputingTopic disjoint with PerformanceTopic
+
+ParallelAndDistributedComputingTopic disjoint with TestOnlyTopic
+
+ParallelAndDistributedComputingTopic disjoint with SignalProcessingTopic
+
+ParallelAndDistributedComputingTopic disjoint with RadioCommunicationsTopic
+
+ParallelAndDistributedComputingTopic is subclass of Topic
+
+ParallelAndDistributedComputingTopic disjoint with PowerlineTransmissionTopic
+
+ParallelAndDistributedComputing Topic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+PerformanceTopic disjoint with RadioCommunicationsTopic
+
+PerformanceTopic disjoint with SecurityTopic
+
+PerformanceTopic disjoint with SignalProcessingTopic
+
+PerformanceTopic is subclass of Topic
+
+PerformanceTopic disjoint with PowerlineTransmissionTopic
+
+PerformanceTopic disjoint with TestOnlyTopic
+
+PerformanceTopic disjoint with WirelessCommunicationsTopic
+
+PerformanceTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+PowerlineTransmissionTopic disjoint with RadioCommunicationsTopic
+
+PowerlineTransmissionTopic disjoint with SecurityTopic
+
+PowerlineTransmissionTopic disjoint with SignalProcessingTopic
+
+PowerlineTransmissionTopic is subclass of Topic
+
+PowerlineTransmissionTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+PowerlineTransmissionTopic disjoint with TestOnlyTopic
+
+PowerlineTransmissionTopic disjoint with WirelessCommunicationsTopic
+
+RadioCommunicationsTopic disjoint with SignalProcessingTopic
+
+RadioCommunicationsTopic is subclass of Topic
+
+RadioCommunicationsTopic disjoint with WirelessCommunicationsTopic
+
+RadioCommunicationsTopic disjoint with TestOnlyTopic
+
+RadioCommunicationsTopic disjoint with SatelliteAndSpaceCommunicationsTopic
+
+RadioCommunicationsTopic disjoint with SecurityTopic
+
+SatelliteAndSpaceCommunicationsTopic disjoint with SecurityTopic
+
+SatelliteAndSpaceCommunicationsTopic disjoint with TestOnlyTopic
+
+SatelliteAndSpaceCommunicationsTopic disjoint with SignalProcessingTopic
+
+SatelliteAndSpaceCommunicationsTopic disjoint with WirelessCommunicationsTopic
+
+SatelliteAndSpaceCommunicationsTopic is subclass of Topic
+
+SecurityTopic is subclass of Topic
+
+SecurityTopic disjoint with WirelessCommunicationsTopic
+
+SecurityTopic disjoint with TestOnlyTopic
+
+SecurityTopic disjoint with SignalProcessingTopic
+
+SignalProcessingTopic is subclass of Topic
+
+SignalProcessingTopic disjoint with TestOnlyTopic
+
+SignalProcessingTopic disjoint with WirelessCommunicationsTopic
+
+TestOnlyTopic is subclass of Topic
+
+TestOnlyTopic disjoint with WirelessCommunicationsTopic
+
+WirelessCommunicationsTopic is subclass of Topic
+
+add range in cocusPerson
+
+add is inverse of added_by
+
+add has domain in cocusPerson
+
+added_by has domain in cocusPerson
+
+added_by range in cocusPerson
+
+approve has domain in Administrator
+
+approve range in Event
+
+approve is inverse of approved_by
+
+approved_by range in Administrator
+
+approved_by has domain in Event
+
+assign has domain in Administrator
+
+assign is inverse of assigned_by
+
+assign range in Role
+
+assigned_by has domain in Role
+
+assigned_by range in Administrator
+
+attendeeAt has domain in edasPerson
+
+attendeeAt is inverse of hasAttendee
+
+attendeeAt range in ConferenceEvent
+
+belongsToEvent range in ConferenceEvent
+
+belongsToEvent has domain in Programme
+
+belongsToEvent is inverse of hasProgramme
+
+concerned has domain in Event_URL
+
+concerned range in Event
+
+confirm is inverse of confirmed_by
+
+confirm range in Event
+
+confirm has domain in Approval_Email
+
+confirmed_by has domain in Event
+
+confirmed_by range in Approval_Email
+
+conists_of has domain in Event
+
+conists_of range in Event_Tracks
+
+create range in cocusDocument or Event
+
+create is inverse of created_by
+
+create has domain in User
+
+created_by has domain in cocusDocument or Event
+
+created_by range in User
+
+define is inverse of defined_by
+
+define has domain in Event_Setup
+
+define range in Event
+
+defined_by range in Event_Setup
+
+defined_by has domain in Event
+
+execute has domain in cocusPerson
+
+execute range in Activity or Role
+
+forEvent is inverse of hasCall
+
+forEvent has domain in Call
+
+forEvent range in AcademicEvent
+
+get has domain in cocusPerson
+
+get range in Inforamtion
+
+has_result range in cocusDocument or Event
+
+has_result has domain in Activity
+
+hasAttendee has domain in ConferenceEvent
+
+hasAttendee range in edasPerson
+
+hasCall range in Call
+
+hasCall has domain in AcademicEvent
+
+hasCountry range in Country
+
+hasCountry has domain in edasConference
+
+hasLocation range in Place
+
+hasLocation has domain in ConferenceEvent
+
+hasLocation is inverse of isLocationOf
+
+hasMember has domain in edasConference
+
+hasMember range in edasPerson
+
+hasMember is inverse of isMemberOf
+
+hasMenu range in MealMenu
+
+hasMenu is inverse of isMenuOf
+
+hasMenu has domain in MealEvent
+
+hasProgramme has domain in ConferenceEvent
+
+hasProgramme range in Programme
+
+hasRating range in ReviewRating
+
+hasRating has domain in ActivePaper
+
+hasRelatedDocument range in edasDocument
+
+hasRelatedDocument is inverse of relatesTo
+
+hasRelatedDocument has domain in AcademicEvent or edasConference or ConferenceSession or edasPerson
+
+hasRelatedPaper range in edasPaper
+
+hasRelatedPaper is inverse of isWrittenBy
+
+hasRelatedPaper has domain in edasAuthor
+
+hasReviewHistory has domain in Reviewer
+
+hasReviewHistory range in PersonalReviewHistory
+
+hasReviewHistory is inverse of isReviewHistoryOf
+
+hasTopic range in Topic
+
+hasTopic is inverse of isTopicOf
+
+hasTopic has domain in edasConference or edasPaper
+
+initiates range in Call
+
+initiates is inverse of isInitiatedBy
+
+initiates has domain in ConferenceChair or SessionChair or TPCMember
+
+inverse_of_add range in cocusDocument or cocusPerson
+
+inverse_of_add has domain in cocusPerson
+
+isInitiatedBy range in ConferenceChair or SessionChair or TPCMember
+
+isInitiatedBy has domain in Call
+
+isLocationOf has domain in Place
+
+isLocationOf range in ConferenceEvent
+
+isMemberOf range in edasConference
+
+isMemberOf has domain in edasPerson
+
+isMenuOf range in MealEvent
+
+isMenuOf has domain in MealMenu
+
+isProviderOf has domain in Organization
+
+isProviderOf range in Sponsorship
+
+isProviderOf is inverse of providedBy
+
+isReviewedBy range in ConferenceChair or Reviewer or SessionChair or TPCMember
+
+isReviewedBy is inverse of isReviewing
+
+isReviewedBy has domain in edasPaper
+
+isReviewHistoryOf has domain in PersonalReviewHistory
+
+isReviewHistoryOf range in Reviewer
+
+isReviewing has domain in ConferenceChair or Reviewer or SessionChair or TPCMember
+
+isReviewing range in edasPaper
+
+isTopicOf has domain in Topic
+
+isTopicOf range in edasConference or edasPaper
+
+isWrittenBy range in edasAuthor
+
+isWrittenBy has domain in edasPaper
+
+modified_by has domain in Account or Detail
+
+modified_by range in cocusPerson
+
+modified_by is inverse of modify
+
+modify has domain in cocusPerson
+
+modify range in Account or Detail
+
+providedBy has domain in Sponsorship
+
+providedBy range in Organization
+
+recieve is inverse of recieved_by
+
+recieve range in cocusDocument
+
+recieve has domain in User
+
+recieved_by range in User
+
+recieved_by has domain in cocusDocument
+
+register has domain in cocusPerson
+
+register is inverse of registred_by
+
+register range in Account
+
+registred_by range in cocusPerson
+
+registred_by has domain in Account
+
+relatedToEvent has domain in AcceptedPaper
+
+relatedToEvent range in PaperPresentation
+
+relatedToEvent is inverse of relatedToPaper
+
+relatedToPaper range in AcceptedPaper
+
+relatedToPaper has domain in PaperPresentation
+
+relatesTo range in AcademicEvent or edasConference or ConferenceSession or edasPerson
+
+relatesTo has domain in cocusDocument
+
+remove has domain in cocusPerson
+
+remove is inverse of removed_by
+
+remove range in cocusDocument or cocusPerson
+
+removed_by range in cocusPerson
+
+removed_by has domain in cocusDocument or cocusPerson
+
+send is inverse of sent_by
+
+send range in Activity
+
+send has domain in cocusPerson
+
+sent_by has domain in Activity
+
+sent_by range in cocusPerson
+
+submit is inverse of submited__by
+
+submit range in cocusDocument
+
+submit has domain in User
+
+submited__by range in User
+
+submited__by has domain in cocusDocument
+
+take_part_in range in Event
+
+take_part_in has domain in cocusPerson
+
+use is inverse of used_by
+
+use has domain in cocusPerson
+
+use range in cocusDocument
+
+used_by range in cocusPerson
+
+used_by has domain in cocusDocument

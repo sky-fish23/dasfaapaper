@@ -1,0 +1,135 @@
+execute range in cocusPerson
+NorthKorea Type country
+Country disjoint with Event
+Ghana Type country
+Bangladesh Type country
+Nepal Type country
+PuertoRico Type country
+Egypt Type country
+Turkmenistan Type country
+Latvia Type country
+Jordan Type country
+Ukraine Type country
+DemocraticRepublicOfCongo Type country
+Syria Type country
+Tunisia Type country
+Sweden Type country
+Country disjoint with cocusPerson
+Qatar Type country
+Botswana Type country
+BosniaAndHerzegovina Type country
+Paraguay Type country
+UAE Type country
+Administrator is equivalent owl:Nothing
+Australia Type country
+execute has domain in edasPerson
+CzechRepublic Type country
+Singapore Type country
+Portugal Type country
+Administrator EquivalentTo execute only Admin_Role
+Mauritius Type country
+Finland Type country
+HongKong Type country
+China Type country
+Germany Type country
+Slovenia Type country
+Poland Type country
+Cuba Type country
+Hungary Type country
+Georgia Type country
+Slovakia Type country
+Croatia Type country
+Tanzania Type country
+Indonesia Type country
+Lithuania Type country
+edasPerson is subclass of cocusPerson
+Iran Type country
+Armenia Type country
+Romania Type country
+NewZealand Type country
+Estonia Type country
+Norway Type country
+edasPerson is equivalent to owl:Thing
+execute Domain cocusPerson
+edasPerson disjoint with Event
+Libya Type country
+Kuwait Type country
+Malta Type country
+Denmark Type country
+Taiwan Type country
+Italy Type country
+execute range in Activity
+USA Type country
+Uruguay Type country
+Pakistan Type country
+Chile Type country
+Admin_Role is equivalent to owl:Nothing
+Venezuela Type country
+Ireland Type country
+Yemen Type country
+Russia Type country
+Mongolia Type country
+Bahamas Type country
+Korea Type country
+Country disjoint with edasPerson
+Malaysia Type country
+Uganda Type country
+SaudiArabia Type country
+Cambodia Type country
+Lebanon Type country
+Senegal Type country
+Mexico Type country
+Macao Type country
+Kenya Type country
+cocusPerson is equivalent to owl:Thing
+SanMarino Type country
+Administrator SubclassOf execute some Event_Approval
+Ecuador Type country
+Azerbaijan Type country
+Switzerland Type country
+SerbiaAndMontenegro Type country
+Turkey Type country
+Ethiopia Type country
+Oman Type country
+Madagascar Type country
+Belgium Type country
+Luxemburg Type country
+Morocco Type country
+Iraq Type country
+Spain Type country
+edasPerson EquivalentTo cocusPerson
+Belarus Type country
+SriLanka Type country
+Cyprus Type country
+Israel Type country
+Greece Type country
+Country is subclass of cocusPerson
+Macedonia Type country
+SouthAfrica Type country
+France Type country
+Country disjoint with Document
+Canada Type country
+Austria Type country
+Vietnam Type country
+Zimbabwe Type country
+Japan Type country
+Philippines Type country
+Iceland Type country
+India Type country
+EuropeanUnion Type country
+Tajikistan Type country
+Administrator is subclass of edasPerson
+Bulgaria Type country
+CocosIslands Type country
+Brazil Type country
+Argentina Type country
+Nigeria Type country
+Thailand Type country
+edasPerson disjoint with Document
+UnitedKingdom Type country
+Colombia Type country
+Peru Type country
+Administrator SubclassOfcocusPerson
+Nicaragua Type country
+Bahrain Type country
+Netherlands Type country

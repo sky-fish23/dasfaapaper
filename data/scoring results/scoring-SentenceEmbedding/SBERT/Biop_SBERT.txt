@@ -1,0 +1,82 @@
+bioportal-metadata
+
+#################  IJCAI19 ################
+IJCAI19 mc score:
+IJCAI19 mc K1 score: 10355
+IJCAI19 mc K2 score: 10355
+IJCAI19 mc K3 score: 10355
+IJCAI19 mc K4 score: 10355
+IJCAI19 mc K5 score: 10346
+IJCAI19 mc K6 score: 10355
+IJCAI19 mc K7 score: 10355
+IJCAI19 mc K8 score: 10355
+IJCAI19 mc K9 score: 10355
+IJCAI19 mc K10 score: 10355
+IJCAI19 mc K11 score: 10355
+IJCAI19 mc K12 score: 10346
+IJCAI19 mc K13 score: 10336
+IJCAI19 mc K14 score: 10336
+
+Cosine:
+#################  Method 1 ################
+Method 1 K1  score: 12155.965405694778
+Method 1 K2  score: 12155.601206134996
+Method 1 K3  score: 12156.90094407537
+Method 1 K4  score: 12156.377298499769
+Method 1 K5  score: 12143.38705610592
+Method 1 K6  score: 12157.50189100122
+Method 1 K7  score: 12152.487600950799
+Method 1 K8  score: 12157.03991938268
+Method 1 K9  score: 12156.094502803464
+Method 1 K10  score: 12158.003364896214
+Method 1 K11  score: 12158.462871142992
+Method 1 K12  score: 12141.255664617915
+Method 1 K13  score: 12143.90540806776
+Method 1 K14  score: 12141.774016579755
+
+#################  Method 2 ################
+Method 2 K1  score: 13696.280540341502
+Method 2 K2  score: 13694.88681097423
+Method 2 K3  score: 13696.004275677682
+Method 2 K4  score: 13698.030691488175
+Method 2 K5  score: 13688.97908364854
+Method 2 K6  score: 13697.440044945144
+Method 2 K7  score: 13691.13281897501
+Method 2 K8  score: 13697.109711718718
+Method 2 K9  score: 13695.542268804938
+Method 2 K10  score: 13697.198572986792
+Method 2 K11  score: 13699.672120721227
+Method 2 K12  score: 13683.95347223999
+Method 2 K13  score: 13678.877530092963
+Method 2 K14  score: 13673.851918684411
+
+
+Euclid:
+Method 1 K1  score: 12260.064217512163
+Method 1 K2  score: 12260.02857081879
+Method 1 K3  score: 12260.067275441676
+Method 1 K4  score: 12260.196630203603
+Method 1 K5  score: 12244.097853562222
+Method 1 K6  score: 12260.091466037555
+Method 1 K7  score: 12260.013263158557
+Method 1 K8  score: 12260.159984753844
+Method 1 K9  score: 12260.074205488478
+Method 1 K10  score: 12260.309826838717
+Method 1 K11  score: 12260.272566733069
+Method 1 K12  score: 12244.101750726919
+Method 1 K13  score: 12244.081991378338
+Method 1 K14  score: 12244.085888543035
+Method 2 K1  score: 14547.793746734762
+Method 2 K2  score: 14548.26431218901
+Method 2 K3  score: 14547.67172767738
+Method 2 K4  score: 14547.777135213057
+Method 2 K5  score: 14534.035466805015
+Method 2 K6  score: 14547.786807010973
+Method 2 K7  score: 14547.641762354586
+Method 2 K8  score: 14547.949505335628
+Method 2 K9  score: 14547.68708010681
+Method 2 K10  score: 14546.225416269135
+Method 2 K11  score: 14547.969125762462
+Method 2 K12  score: 14534.0472208656
+Method 2 K13  score: 14519.90164479235
+Method 2 K14  score: 14519.913398852934

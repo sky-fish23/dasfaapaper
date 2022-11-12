@@ -1,0 +1,311 @@
+GraduateStudent is equivalent to who takesCourse only GraduateCourse and takesCourse of at least one owl:Thing
+
+Music is subclass of Insterest
+
+Sports is subclass of Insterest
+
+College is subclass of Organization
+
+Department is subclass of Organization
+
+Institute is subclass of Organization
+
+Program is subclass of Organization
+
+ResearchGroup is subclass of Organization
+
+University is subclass of Organization
+
+Chair is subclass of Professor
+
+Chair is equivalent to Person and who isHeadOf some Department
+
+Director is equivalent to Person and who isHeadOf some Program
+
+Employee is equivalent to Person and who worksFor some Organization
+
+Faculty is subclass of Employee
+
+Lecturer is subclass of Faculty
+
+PostDoc is subclass of Faculty
+
+Professor is subclass of Faculty
+
+AssistantProfessor is subclass of Professor
+
+AssociateProfessor is subclass of Professor
+
+Dean is subclass of Professor
+
+Dean is equivalent to is head of some College
+
+FullProfessor is subclass of Professor
+
+VisitingProfessor is subclass of Professor
+
+SupportingStaff is subclass of Employee
+
+ClericalStaff is subclass of SupportingStaff
+
+SystemsStaff is subclass of SupportingStaff
+
+Man is subclass of Person
+
+PeopleWithHobby is equivalent to Person and who like at least one owl:Thing
+
+ResearchAssistant is subclass of Person
+
+ResearchAssistant is subclass of who worksFor some ResearchGroup
+
+SportsFan is equivalent to Person and who isCrazyAbout some Sports
+
+SportsLover is equivalent to Person and who like some Sports
+
+Student is equivalent to Person and who isStudentOf some Organization
+
+UndergraduateStudent is subclass of Student
+
+TeachingAssistant is equivalent to Person and who is teachingAssistantOf some Course
+
+Woman is subclass of Person
+
+Article is subclass of Publication
+
+ConferencePaper is subclass of Article
+
+JournalArticle is subclass of Article
+
+TechnicalReport is subclass of Article
+
+Book is subclass of Publication
+
+Manual is subclass of Publication
+
+Software is subclass of Publication
+
+Specification is subclass of Publication
+
+UnofficialPublication is subclass of Publication
+
+Course is subclass of Work
+
+GraduateCourse is subclass of Course
+
+Research is subclass of Work
+
+hasAlumnus has domain in University
+
+hasAlumnus is inverse of hasDegreeFrom
+
+hasAlumnus range in Person
+
+hasDegreeFrom range in University
+
+hasDegreeFrom has domain in Person
+
+hasDoctoralDegreeFrom is subproperty of hasDegreeFrom
+
+hasDoctoralDegreeFrom range in University
+
+hasDoctoralDegreeFrom has domain in Person
+
+hasMasterDegreeFrom range in University
+
+hasMasterDegreeFrom has domain in Person
+
+hasMasterDegreeFrom is subproperty of hasDegreeFrom
+
+hasUndergraduateDegreeFrom is subproperty of hasDegreeFrom
+
+hasUndergraduateDegreeFrom has domain in Person
+
+hasUndergraduateDegreeFrom range in University
+
+hasMember is inverse of isMemberOf
+
+hasMember range in Person
+
+hasMember has domain in Organization
+
+hasStudent is inverse of isStudentOf
+
+hasStudent range in Student
+
+hasStudent is subproperty of hasMember
+
+hasStudent has domain in Organization
+
+hasSameHomeTownWith has domain in Person
+
+hasSameHomeTownWith range in Person
+
+isAdvisedBy range in Professor
+
+isAdvisedBy has domain in Person
+
+isAffiliatedOrganizationOf has domain in Organization
+
+isAffiliatedOrganizationOf range in Organization
+
+isAffiliateOf range in Person
+
+isAffiliateOf has domain in Organization
+
+isFriendOf range in Person
+
+isFriendOf has domain in Person
+
+isStudentOf is subproperty of isMemberOf
+
+isStudentOf has domain in Student
+
+isStudentOf range in Organization
+
+enrollIn range in Department
+
+enrollIn is subproperty of isStudentOf
+
+worksFor is subproperty of isMemberOf
+
+isHeadOf is subproperty of worksFor
+
+isTaughtBy is inverse of teacherOf
+
+isTaughtBy has domain in Course
+
+isTaughtBy range in Faculty
+
+like is equivalent to love
+
+isCrazyAbout is subproperty of like
+
+listedCourse range in Course
+
+listedCourse has domain in Schedule
+
+orgPublication has domain in Organization
+
+orgPublication range in Publication
+
+publicationAuthor range in Person
+
+publicationAuthor has domain in Publication
+
+publicationDate has domain in Publication
+
+publicationResearch range in Research
+
+publicationResearch has domain in Publication
+
+researchProject has domain in ResearchGroup
+
+researchProject range in Research
+
+softwareDocumentation range in Publication
+
+softwareDocumentation has domain in Software
+
+softwareVersion has domain in Software
+
+subOrganizationOf range in Organization
+
+subOrganizationOf has domain in Organization
+
+takesCourse has domain in Student
+
+teacherOf range in Course
+
+teacherOf has domain in Faculty
+
+teachingAssistantOf range in Course
+
+teachingAssistantOf has domain in TeachingAssistant
+
+tenured has domain in Professor
+
+age has domain in Person
+
+emailAddress has domain in Person
+
+firstName range in xsd:string
+
+firstName has domain in Person
+
+lastName has domain in Person
+
+lastName range in xsd:string
+
+telephone has domain in Person
+
+title has domain in Person
+
+AmericanFootball is an instance of Sports
+
+Baseball is an instance of Sports
+
+BasketBall is an instance of Sports
+
+Classic_Music is an instance of Music
+
+extindividual37 is taught by extindividual39
+
+extindividual37 is taught by extindividual38
+
+extindividual40 is taught by extindividual41
+
+extindividual41 is different from extindividual42
+
+extindividual43 is taught by extindividual44
+
+extindividual44 is different from extindividual45
+
+extindividual46 is taught by extindividual47
+
+extindividual47 is different from extindividual48
+
+extindividual49 is head of extindividual50
+
+extindividual49 is different from extindividual51
+
+extindividual52 is different from extindividual54
+
+extindividual52 is head of extindividual53
+
+extindividual55 is taught by extindividual56
+
+extindividual56 is different from extindividual57
+
+extindividual58 is taught by extindividual60
+
+extindividual61 is taught by extindividual63
+
+extindividual62 is different from extindividual63
+
+extindividual64 is different from extindividual66
+
+extindividual64 is head of extindividual65
+
+Kickboxing is an instance of Sports
+
+Painting is an instance of Insterest
+
+Pop_Music is an instance of Music
+
+Reading is an instance of Insterest
+
+Rock_and_Roll is an instance of Music
+
+Shopping is an instance of Insterest
+
+Soccer is an instance of Sports
+
+StampCollecting is an instance of Insterest
+
+Tennis is an instance of Sports
+
+Video_Game is an instance of Insterest
+
+isTaughtBy has characteristic of Functional
+
+isHeadOf has characteristic of InverseFunctional

@@ -1,0 +1,32 @@
+AUTOMCS
+
+rescal, Cosine Similarity 
+
+Method 1 K1  score: 11208.0
+Method 1 K2  score: 11208.0
+Method 1 K3  score: 11208.0
+Method 1 K4  score: 11208.0
+Method 1 K5  score: 11196.0
+Method 1 K6  score: 9852.0
+Method 2 K1  score: 10059.39737439763
+Method 2 K2  score: 10059.815831911874
+Method 2 K3  score: 10059.689981553343
+Method 2 K4  score: 10059.088124124957
+Method 2 K5  score: 10042.817948307498
+Method 2 K6  score: 8994.51586962773
+
+
+rescal, Euclidean Similarity
+
+Method 1 K1  score: 11208.0
+Method 1 K2  score: 11208.0
+Method 1 K3  score: 11208.0
+Method 1 K4  score: 11208.0
+Method 1 K5  score: 11196.0
+Method 1 K6  score: 9852.0
+Method 2 K1  score: 8455.363403201336
+Method 2 K2  score: 8456.716700315528
+Method 2 K3  score: 8456.20291520676
+Method 2 K4  score: 8454.824429943688
+Method 2 K5  score: 8441.638709363133
+Method 2 K6  score: 7503.979237958951

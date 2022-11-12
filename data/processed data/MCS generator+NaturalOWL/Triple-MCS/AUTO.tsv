@@ -1,0 +1,894 @@
+Iraq	is an instance of	country
+ReviewForm	disjoint with	ReviewQuestion
+AntennasTopic	disjoint with	RadioCommunicationsTopic
+AntennasTopic	disjoint with	MobileComputingTopic
+CADTopic	disjoint with	SignalProcessingTopic
+Place	disjoint with	ReviewQuestion
+hasStreet	range in	xsd:string
+edasDocument	disjoint with	ReviewRating
+CADTopic	disjoint with	ParallelAndDistributedComputingTopic
+RadioCommunicationsTopic	disjoint with	SecurityTopic
+CzechRepublic	is an instance of	country
+defined_by	range in	Event_Setup
+hasCountry	range in	Country
+hasSubmissionInstructions	range in	xsd:string
+Tunisia	is an instance of	country
+PowerlineTransmissionTopic	disjoint with	WirelessCommunicationsTopic
+RatedPapers	is subclass of	ActivePaper
+cocusPaper	is equivalent to	edasPaper
+ComputerNetworksManagementTopic	disjoint with	ComputerNetworksSecurityTopic
+sent_by	has domain in	Activity
+edasConference	disjoint with	Sponsorship
+hasReviewHistory	is inverse of	isReviewHistoryOf
+belongsToEvent	range in	ConferenceEvent
+registred_by	has domain in	Account
+ComputerNetworksMeasurementsTopic	disjoint with	ComputerNetworksSecurityTopic
+Committe_Role	is subclass of	Role
+cocusAuthor	is equivalent to	edasAuthor
+confirm	has domain in	Approval_Email
+OrganizationalMeeting	is subclass of	AcademicEvent
+PerformanceTopic	disjoint with	SignalProcessingTopic
+approved_by	range in	Administrator
+Botswana	is an instance of	country
+edasAuthor	disjoint with	ConferenceChair
+hasFirstName	has domain in	edasPerson
+hasName	has domain in	edasConference
+edasConference	is subclass of	what hasCountry of exactly one owl:Thing
+cocusWorkshop	is subclass of	Event
+registrationDueOn	range in	xsd:dateTime
+CryptographyTopic	disjoint with	SecurityTopic
+relatedToPaper	range in	AcceptedPaper
+hasStartDateTime	range in	xsd:dateTime
+PowerlineTransmissionTopic	disjoint with	SignalProcessingTopic
+ComputerNetworksOpticalTopic	disjoint with	ComputerNetworksSecurityTopic
+Croatia	is an instance of	country
+Cyprus	is an instance of	country
+Morocco	is an instance of	country
+startDate	range in	xsd:dateTime
+BreakEvent	is equivalent to	CoffeeBreak or FreeTimeBreak or MealBreak
+Sponsorship	disjoint with	Topic
+edasConference	disjoint with	Place
+ContactInformation	disjoint with	ReviewRating
+TalkEvent	disjoint with	edasWorkshop
+ContactInformation	disjoint with	Sponsorship
+cocusPaper	is subclass of	cocusDocument
+Research_Topic	is subclass of	Event_Setup
+edasConference	disjoint with	ConferenceEvent
+ParallelAndDistributedComputingTopic	disjoint with	SignalProcessingTopic
+ComputerNetworksEnterpriseTopic	is subclass of	ComputerNetworksTopic
+Bulgaria	is an instance of	country
+CommunicationTheoryTopic	disjoint with	MultimediaTopic
+Chile	is an instance of	country
+User	is subclass of	who take_part_in some Event
+Author_Role	is subclass of	Role
+ComputerNetworksMeasurementsTopic	disjoint with	ComputerNetworksSensorTopic
+OperatingTopicsystems	disjoint with	SatelliteAndSpaceCommunicationsTopic
+Country	disjoint with	ReviewForm
+modified_by	range in	cocusPerson
+Macao	is an instance of	country
+PerformanceTopic	disjoint with	PowerlineTransmissionTopic
+MedicineTopic	disjoint with	TestOnlyTopic
+Abstract	is subclass of	cocusPaper
+cocusConference	is subclass of	Event
+get	has domain in	cocusPerson
+ConferenceSession	disjoint with	Place
+India	is an instance of	country
+PendingPaper	is subclass of	PublishedPaper
+ConferenceSession	disjoint with	Country
+CommunicationTheoryTopic	disjoint with	MedicineTopic
+ComputerNetworksEnterpriseTopic	disjoint with	ComputerNetworksSwitchingTopic
+MealMenu	disjoint with	edasReview
+inverse_of_add	range in	cocusDocument or cocusPerson
+hasName	range in	xsd:string
+CommunicationsTopic	disjoint with	MultimediaTopic
+Taiwan	is an instance of	country
+China	is an instance of	country
+Country	disjoint with	Topic
+hasCall	range in	Call
+CommunicationTheoryTopic	disjoint with	WirelessCommunicationsTopic
+Call	disjoint with	Country
+ComputerNetworksTopic	disjoint with	WirelessCommunicationsTopic
+submit	has domain in	User
+Colombia	is an instance of	country
+cocusPerson	is subclass of	who get some Inforamtion
+edasPaper	is subclass of	edasDocument
+CommunicationTheoryTopic	disjoint with	MicroelectronicsTopic
+modify	range in	Account or Detail
+PersonalPublicationHistory	is subclass of	PersonalHistory
+AccommodationPlace	is subclass of	Place
+SatelliteAndSpaceCommunicationsTopic	disjoint with	SignalProcessingTopic
+Greece	is an instance of	country
+ComputerNetworksSensorTopic	is subclass of	ComputerNetworksTopic
+assigned_by	range in	Administrator
+SerbiaAndMontenegro	is an instance of	country
+Luxemburg	is an instance of	country
+ComputerArchitectureTopic	disjoint with	MobileComputingTopic
+CommunicationsTopic	disjoint with	MicroelectronicsTopic
+ComputerNetworksSwitchingTopic	is subclass of	ComputerNetworksTopic
+initiates	has domain in	ConferenceChair or SessionChair or TPCMember
+edasPerson	disjoint with	Sponsorship
+Slovakia	is an instance of	country
+CryptographyTopic	disjoint with	TestOnlyTopic
+modified_by	has domain in	Account or Detail
+AcademicEvent	disjoint with	NonAcademicEvent
+ComputerArchitectureTopic	disjoint with	WirelessCommunicationsTopic
+MicroelectronicsTopic	disjoint with	TestOnlyTopic
+Portugal	is an instance of	country
+ComputerNetworksManagementTopic	disjoint with	ComputerNetworksOpticalTopic
+hasBiography	has domain in	edasPerson
+edasDocument	disjoint with	PersonalHistory
+Iran	is an instance of	country
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksSecurityTopic
+approve	range in	Event
+ContactInformation	disjoint with	Organization
+paperDueOn	has domain in	edasConference
+MultimediaTopic	disjoint with	SignalProcessingTopic
+hasLocation	is inverse of	isLocationOf
+MedicineTopic	disjoint with	MultimediaTopic
+Reviewer_Role	is subclass of	Role
+Presenter	is subclass of	edasAuthor
+cocusReview	is subclass of	cocusDocument
+EuropeanUnion	is an instance of	country
+MobileComputingTopic	disjoint with	ParallelAndDistributedComputingTopic
+AntennasTopic	disjoint with	ComputerNetworksTopic
+hasEndDateTime	range in	xsd:dateTime
+edasDocument	disjoint with	ReviewForm
+edasDocument	disjoint with	ReviewQuestion
+submit	is inverse of	submited__by
+Organization	disjoint with	cocusPerson
+ConferenceEvent	disjoint with	ReviewQuestion
+ReviewForm	disjoint with	ReviewRating
+MealMenu	disjoint with	edasPaper
+NGO	is subclass of	Organization
+ParallelAndDistributedComputingTopic	is subclass of	Topic
+Oman	is an instance of	country
+SaudiArabia	is an instance of	country
+edasPerson	disjoint with	PersonalHistory
+AntennasTopic	is subclass of	Topic
+edasConference	is subclass of	what has endDate of at most one rdfs:Literal
+CommunicationsTopic	disjoint with	RadioCommunicationsTopic
+CADTopic	disjoint with	MultimediaTopic
+Ukraine	is an instance of	country
+hasRelatedDocument	has domain in	AcademicEvent or edasConference or ConferenceSession or edasPerson
+ComputerNetworksManagementTopic	disjoint with	ComputerNetworksSwitchingTopic
+PublishedPaper	disjoint with	RejectedPaper
+Country	disjoint with	Organization
+MobileComputingTopic	disjoint with	PowerlineTransmissionTopic
+Turkmenistan	is an instance of	country
+Austria	is an instance of	country
+Call	disjoint with	ConferenceSession
+OrganizationalMeeting	disjoint with	TalkEvent
+AntennasTopic	disjoint with	CADTopic
+concerned	range in	Event
+Hungary	is an instance of	country
+attendeeAt	is inverse of	hasAttendee
+AntennasTopic	disjoint with	MedicineTopic
+SatelliteAndSpaceCommunicationsTopic	is subclass of	Topic
+PowerlineTransmissionTopic	disjoint with	RadioCommunicationsTopic
+Armenia	is an instance of	country
+ParallelAndDistributedComputingTopic	disjoint with	WirelessCommunicationsTopic
+ComputerArchitectureTopic	disjoint with	SecurityTopic
+Argentina	is an instance of	country
+edasConference	is subclass of	what has registrationDueOn the date of at most one rdfs:Literal
+Egypt	is an instance of	country
+Philippines	is an instance of	country
+MobileComputingTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+edasDocument	disjoint with	Organization
+PerformanceTopic	disjoint with	WirelessCommunicationsTopic
+MultimediaTopic	disjoint with	PowerlineTransmissionTopic
+BreakEvent	disjoint with	MealEvent
+AntennasTopic	disjoint with	WirelessCommunicationsTopic
+Detail	is subclass of	what is modified_by some cocusPerson
+AntennasTopic	disjoint with	ParallelAndDistributedComputingTopic
+concerned	has domain in	Event_URL
+PersonalHistory	disjoint with	ReviewForm
+AntennasTopic	disjoint with	ComputerArchitectureTopic
+isReviewedBy	has domain in	edasPaper
+Australia	is an instance of	country
+approve	has domain in	Administrator
+edasConference	disjoint with	edasPerson
+ComputerNetworksTopic	disjoint with	RadioCommunicationsTopic
+Country	disjoint with	edasDocument
+hasSubmissionDeadline	has domain in	Call
+hasRelatedDocument	is inverse of	relatesTo
+Kenya	is an instance of	country
+AcceptedPaper	disjoint with	PendingPaper
+CADTopic	is subclass of	Topic
+MicroelectronicsTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+SecurityTopic	disjoint with	SignalProcessingTopic
+hasEndDateTime	has domain in	ConferenceEvent
+isInitiatedBy	has domain in	Call
+Organization	disjoint with	ReviewForm
+send	is inverse of	sent_by
+Event_Approval	is subclass of	what has_result of only Approval_Email
+CommunicationsTopic	is subclass of	Topic
+ConferenceEvent	disjoint with	edasPerson
+hasEmail	range in	xsd:string
+USA	is an instance of	country
+Call	disjoint with	ReviewRating
+cocusDocument	is subclass of	owl:Thing
+ComputerNetworksTopic	disjoint with	MedicineTopic
+edasConference	is subclass of	owl:Thing
+PublishedPaper	disjoint with	WithdrawnPaper
+PerformanceTopic	disjoint with	SecurityTopic
+ActivePaper	disjoint with	RejectedPaper
+PersonalHistory	disjoint with	Topic
+Excursion	is subclass of	SocialEvent
+ComputerNetworksOpticalTopic	disjoint with	ComputerNetworksSensorTopic
+OrganizationalMeeting	disjoint with	PaperPresentation
+AcceptRating	disjoint with	RejectRating
+SlideSet	is subclass of	edasDocument
+ComputerNetworksSecurityTopic	disjoint with	ComputerNetworksSwitchingTopic
+CADTopic	disjoint with	PerformanceTopic
+CADTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+hasLastName	has domain in	edasPerson
+PendingPaper	disjoint with	RejectedPaper
+assign	is inverse of	assigned_by
+Iceland	is an instance of	country
+ClosingTalk	disjoint with	WelcomeTalk
+CommunicationsTopic	disjoint with	WirelessCommunicationsTopic
+ComputerArchitectureTopic	disjoint with	CryptographyTopic
+MedicineTopic	disjoint with	WirelessCommunicationsTopic
+BreakEvent	is subclass of	NonAcademicEvent
+edasAuthor	is equivalent to	edasPerson and who hasRelatedDocument of some edasPaper
+AntennasTopic	disjoint with	CommunicationTheoryTopic
+TestOnlyTopic	is subclass of	Topic
+Lithuania	is an instance of	country
+hasRelatedDocument	range in	edasDocument
+Norway	is an instance of	country
+CryptographyTopic	disjoint with	MobileComputingTopic
+Tanzania	is an instance of	country
+SignalProcessingTopic	disjoint with	WirelessCommunicationsTopic
+Belgium	is an instance of	country
+Call	disjoint with	Topic
+MicroelectronicsTopic	disjoint with	PowerlineTransmissionTopic
+TalkEvent	is subclass of	AcademicEvent
+edasConference	disjoint with	ContactInformation
+SignalProcessingTopic	disjoint with	TestOnlyTopic
+hasFirstName	range in	xsd:string
+ConferenceSession	disjoint with	ReviewRating
+edasReview	is subclass of	edasDocument
+isReviewedBy	range in	ConferenceChair or Reviewer or SessionChair or TPCMember
+PowerlineTransmissionTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+ComputerNetworksAapplicationsTopic	is subclass of	ComputerNetworksTopic
+Paper_Typologies	is subclass of	Event_Setup
+edasConference	disjoint with	ReviewForm
+relatesTo	range in	AcademicEvent or edasConference or ConferenceSession or edasPerson
+ActivePaper	disjoint with	WithdrawnPaper
+ComputerNetworksEnterpriseTopic	disjoint with	ComputerNetworksSecurityTopic
+NewZealand	is an instance of	country
+Call	disjoint with	Place
+SecurityTopic	disjoint with	TestOnlyTopic
+CryptographyTopic	disjoint with	SignalProcessingTopic
+Administrator	is equivalent to	who execute only Admin_Role
+cocusAuthor	is subclass of	who execute some Event_Creation
+MobileComputingTopic	disjoint with	OperatingTopicsystems
+SatelliteAndSpaceCommunicationsTopic	disjoint with	SecurityTopic
+AcceptedPaper	disjoint with	WithdrawnPaper
+WirelessCommunicationsTopic	is subclass of	Topic
+ContactInformation	disjoint with	Country
+recieved_by	range in	User
+ComputerArchitectureTopic	disjoint with	MedicineTopic
+MedicineTopic	is subclass of	Topic
+isReviewing	has domain in	ConferenceChair or Reviewer or SessionChair or TPCMember
+CoffeeBreak	is subclass of	BreakEvent
+define	has domain in	Event_Setup
+hasAttendee	range in	edasPerson
+providedBy	has domain in	Sponsorship
+GovernmentOrganization	is subclass of	Organization
+SecurityTopic	is subclass of	Topic
+MobileComputingTopic	disjoint with	TestOnlyTopic
+hasMember	has domain in	edasConference
+ComputerNetworksEnterpriseTopic	disjoint with	ComputerNetworksOpticalTopic
+Reception	is subclass of	SocialEvent
+has_result	range in	cocusDocument or Event
+belongsToEvent	is inverse of	hasProgramme
+hasPhone	range in	xsd:string
+conists_of	range in	Event_Tracks
+PaperPresentation	is subclass of	OrganizationalMeeting
+ComputerArchitectureTopic	is subclass of	Topic
+MultimediaTopic	disjoint with	SecurityTopic
+Vietnam	is an instance of	country
+ParallelAndDistributedComputingTopic	disjoint with	PowerlineTransmissionTopic
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksOpticalTopic
+RejectRating	is subclass of	ReviewRating
+MealMenu	disjoint with	SlideSet
+add	is inverse of	added_by
+CryptographyTopic	disjoint with	MultimediaTopic
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksSensorTopic
+ComputerNetworksOpticalTopic	is subclass of	ComputerNetworksTopic
+register	is inverse of	registred_by
+WelcomeTalk	is subclass of	TalkEvent
+Registration	is subclass of	Activity
+execute	range in	Activity or Role
+RadioCommunicationsTopic	disjoint with	SignalProcessingTopic
+hasCity	range in	xsd:string
+CallForPapers	is subclass of	Call
+added_by	range in	cocusPerson
+Programme	disjoint with	edasReview
+Preview	is subclass of	Review_Form
+hasCostAmount	has domain in	Sponsorship
+OperatingTopicsystems	disjoint with	TestOnlyTopic
+Admin_Role	is subclass of	Role
+OperatingTopicsystems	disjoint with	SecurityTopic
+define	is inverse of	defined_by
+Sweden	is an instance of	country
+Belarus	is an instance of	country
+relatedToPaper	has domain in	PaperPresentation
+Paraguay	is an instance of	country
+ComputerNetworksTopic	disjoint with	SignalProcessingTopic
+used_by	range in	cocusPerson
+MicroelectronicsTopic	disjoint with	MobileComputingTopic
+ContactInformation	disjoint with	Place
+PersonalHistory	disjoint with	ReviewRating
+CADTopic	disjoint with	CommunicationTheoryTopic
+Singapore	is an instance of	country
+CryptographyTopic	disjoint with	RadioCommunicationsTopic
+ConferenceEvent	disjoint with	ContactInformation
+ActivePaper	is subclass of	edasPaper
+ComputerNetworksTopic	disjoint with	SecurityTopic
+AntennasTopic	disjoint with	MicroelectronicsTopic
+Notification_Email	is subclass of	Email
+Event_Tracks	is subclass of	Event_Setup
+CryptographyTopic	disjoint with	MicroelectronicsTopic
+MedicineTopic	disjoint with	MobileComputingTopic
+AcademiaOrganization	is subclass of	Organization
+RejectedPaper	disjoint with	WithdrawnPaper
+CommunicationsTopic	disjoint with	PerformanceTopic
+submited__by	range in	User
+Senegal	is an instance of	country
+MultimediaTopic	disjoint with	TestOnlyTopic
+MedicineTopic	disjoint with	PerformanceTopic
+ComputerArchitectureTopic	disjoint with	MultimediaTopic
+CADTopic	disjoint with	RadioCommunicationsTopic
+OperatingTopicsystems	is subclass of	Topic
+AcceptedPaper	disjoint with	RejectedPaper
+endDate	range in	xsd:dateTime
+PuertoRico	is an instance of	country
+edasPerson	disjoint with	Topic
+Event_Approval	is subclass of	Activity
+create	is inverse of	created_by
+OperatingTopicsystems	disjoint with	PerformanceTopic
+MedicineTopic	disjoint with	SignalProcessingTopic
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksSwitchingTopic	
+edasReview	disjoint with	SlideSet
+Organization	disjoint with	ReviewQuestion
+Call	disjoint with	ReviewForm
+ConferenceEvent	disjoint with	ConferenceSession
+MealEvent	is subclass of	NonAcademicEvent
+MealBreak	is subclass of	BreakEvent
+CryptographyTopic	is subclass of	Topic
+MedicineTopic	disjoint with	PowerlineTransmissionTopic
+send	range in	Activity
+Template	is subclass of	cocusDocument
+Indonesia	is an instance of	country
+OperatingTopicsystems	disjoint with	RadioCommunicationsTopic
+registred_by	range in	cocusPerson
+Approval_Email	is subclass of	Email
+manuscriptDueOn	range in	xsd:dateTime
+AccpetIfRoomRating	is subclass of	ReviewRating
+ReviewRating	disjoint with	Topic
+isLocationOf	has domain in	Place
+ComputerNetworksSecurityTopic	disjoint with	ComputerNetworksSensorTopic
+Event_Creation	is subclass of	Activity
+UAE	is an instance of	country
+MicroelectronicsTopic	disjoint with	WirelessCommunicationsTopic
+cocusPaper	is subclass of	what is submited__by some Corresponding_Author
+Help_Request	is subclass of	Request
+CommunicationTheoryTopic	disjoint with	ParallelAndDistributedComputingTopic
+ComputerNetworksTopic	disjoint with	ParallelAndDistributedComputingTopic
+CADTopic	disjoint with	ComputerArchitectureTopic
+AntennasTopic	disjoint with	PowerlineTransmissionTopic
+Cuba	is an instance of	country
+AntennasTopic	disjoint with	SignalProcessingTopic
+ConferenceEvent	disjoint with	Sponsorship
+ConferenceEvent	disjoint with	Place
+AcceptedPaper	disjoint with	ActivePaper
+ReviewForm	disjoint with	Sponsorship
+AntennasTopic	disjoint with	CommunicationsTopic
+Lebanon	is an instance of	country
+AcceptRating	disjoint with	AccpetIfRoomRating
+CommunicationsTopic	disjoint with	ComputerArchitectureTopic
+ComputerArchitectureTopic	disjoint with	SignalProcessingTopic
+PendingPaper	disjoint with	WithdrawnPaper
+PowerlineTransmissionTopic	disjoint with	SecurityTopic
+relatedToEvent	is inverse of	relatedToPaper
+ConferenceVenuePlace	is subclass of	Place
+hasMenu	has domain in	MealEvent
+cocusReview	is equivalent to	edasReview
+BosniaAndHerzegovina	is an instance of	country
+PendingPaper	disjoint with	PublishedPaper
+hasMember	is inverse of	isMemberOf
+PersonalHistory	disjoint with	Sponsorship
+Syria	is an instance of	country
+MultimediaTopic	disjoint with	PerformanceTopic
+CommunicationsTopic	disjoint with	PowerlineTransmissionTopic
+added_by	has domain in	cocusPerson
+paperDueOn	range in	xsd:dateTime
+Group_Email	is subclass of	Email
+hasTopic	is inverse of	isTopicOf
+PersonalReviewHistory	is subclass of	PersonalHistory
+Macedonia	is an instance of	country
+endDate	has domain in	edasConference
+edasDocument	disjoint with	Sponsorship
+edasPerson	is equivalent to	cocusPerson
+ConferenceSession	disjoint with	edasDocument
+Administrator	is subclass of	who approve some Event
+CallForReviews	is subclass of	Call
+isReviewHistoryOf	range in	Reviewer
+cocusDocument	is subclass of	what is used_by some cocusPerson
+CryptographyTopic	disjoint with	ParallelAndDistributedComputingTopic
+Latvia	is an instance of	country
+ComputerNetworksEnterpriseTopic	disjoint with	ComputerNetworksSensorTopic
+cocusDocument	is equivalent to	edasDocument
+CryptographyTopic	disjoint with	MedicineTopic
+Template	is subclass of	what is used_by some cocusPerson
+SocialEvent	is subclass of	NonAcademicEvent
+Country	disjoint with	ReviewQuestion
+CommunicationsTopic	disjoint with	SecurityTopic
+Event	is subclass of	owl:Thing
+edasConference	is equivalent to	cocusConference
+CommunicationTheoryTopic	disjoint with	CommunicationsTopic
+AntennasTopic	disjoint with	SecurityTopic
+define	range in	Event
+Place	disjoint with	Topic
+edasDocument	disjoint with	Topic
+ComputerNetworksTopic	disjoint with	PerformanceTopic
+hasStreet	has domain in	ContactInformation
+Call	disjoint with	edasPerson
+create	has domain in	User
+ActivePaper	disjoint with	PendingPaper
+MobileComputingTopic	disjoint with	WirelessCommunicationsTopic
+OperatingTopicsystems	disjoint with	PowerlineTransmissionTopic
+Mongolia	is an instance of	country
+MobileComputingTopic	disjoint with	SignalProcessingTopic
+MedicineTopic	disjoint with	OperatingTopicsystems
+recieve	range in	cocusDocument
+CommunicationTheoryTopic	disjoint with	ComputerNetworksTopic
+HongKong	is an instance of	country
+MobileComputingTopic	is subclass of	Topic
+RadioCommunicationsTopic	disjoint with	TestOnlyTopic
+MultimediaTopic	disjoint with	RadioCommunicationsTopic
+get	range in	Inforamtion
+ComputerNetworksTopic	disjoint with	CryptographyTopic
+SriLanka	is an instance of	country
+AntennasTopic	disjoint with	OperatingTopicsystems
+Peru	is an instance of	country
+add	range in	cocusPerson
+registrationDueOn	has domain in	edasConference
+UnitedKingdom	is an instance of	country
+hasCountry	has domain in	edasConference
+edasConference	disjoint with	ConferenceSession
+ComputerNetworksTopic	disjoint with	MultimediaTopic
+CallForManuscripts	is subclass of	Call
+NonAcademicEvent	is subclass of	ConferenceEvent
+CommunicationTheoryTopic	disjoint with	SecurityTopic
+SessionChair	is subclass of	edasPerson
+CADTopic	disjoint with	MedicineTopic
+Feature_Request	is subclass of	Help_Request
+CommunicationTheoryTopic	disjoint with	SignalProcessingTopic
+edasConference	is subclass of	what has paperDueOn the date of at most one rdfs:Literal
+ComputerNetworksTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+ParallelAndDistributedComputingTopic	disjoint with	TestOnlyTopic
+ComputerNetworksTopic	disjoint with	MicroelectronicsTopic
+CADTopic	disjoint with	ComputerNetworksTopic
+Email_Template	is subclass of	Event_Setup
+Romania	is an instance of	country
+Review_Form	is subclass of	Event_Setup
+ConferenceSession	disjoint with	ReviewForm
+ComputerNetworksManagementTopic	disjoint with	ComputerNetworksSensorTopic
+edasConference	is subclass of	what has startDate of at most one rdfs:Literal
+CryptographyTopic	disjoint with	PowerlineTransmissionTopic
+Mexico	is an instance of	country
+MobileComputingTopic	disjoint with	MultimediaTopic
+PaperPresentation	disjoint with	TalkEvent
+Organization	disjoint with	PersonalHistory
+CADTopic	disjoint with	WirelessCommunicationsTopic
+ComputerNetworksTopic	disjoint with	OperatingTopicsystems
+use	range in	cocusDocument
+Italy	is an instance of	country
+TwoLevelConference	is equivalent to	edasConference and what hasMember of some TPCMember and what hasMember of only edasPerson
+hasReviewHistory	range in	PersonalReviewHistory
+created_by	range in	User
+Kuwait	is an instance of	country
+edasDocument	disjoint with	edasPerson
+PersonalHistory	disjoint with	ReviewQuestion
+initiates	range in	Call
+assign	range in	Role
+defined_by	has domain in	Event
+hasRating	has domain in	ActivePaper
+hasTopic	has domain in	edasConference or edasPaper
+CryptographyTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+Turkey	is an instance of	country
+SatelliteAndSpaceCommunicationsTopic	disjoint with	WirelessCommunicationsTopic
+ReviewQuestion	disjoint with	Sponsorship
+AntennasTopic	disjoint with	TestOnlyTopic
+GovernmentOrganization	disjoint with	NGO
+Switzerland	is an instance of	country
+create	range in	cocusDocument or Event
+ConferenceEvent	disjoint with	Topic
+Cambodia	is an instance of	country
+Event	is equivalent to	what is created_by some cocusPerson
+isInitiatedBy	range in	ConferenceChair or SessionChair or TPCMember
+RadioCommunicationsTopic	is subclass of	Topic
+Call	disjoint with	Organization
+TextualReviewQuestion	is subclass of	ReviewQuestion
+IndustryOrganization	is subclass of	Organization
+belongsToEvent	has domain in	Programme
+Mauritius	is an instance of	country
+submit	range in	cocusDocument
+cocusPerson	is subclass of	owl:Thing
+AcceptedPaper	disjoint with	PublishedPaper
+ComputerArchitectureTopic	disjoint with	ComputerNetworksTopic
+hasPhone	has domain in	ContactInformation
+PerformanceTopic	disjoint with	TestOnlyTopic
+Administrator	is subclass of	cocusPerson
+Attendee	is subclass of	edasPerson
+ActivePaper	disjoint with	PublishedPaper
+used_by	has domain in	cocusDocument
+register	has domain in	cocusPerson
+Malta	is an instance of	country
+User	is equivalent to	who execute some Role and who register some Account
+MultimediaTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+isWrittenBy	range in	edasAuthor
+Nepal	is an instance of	country
+Email	is subclass of	what is recieved_by some cocusPerson
+removed_by	range in	cocusPerson
+relatesTo	has domain in	cocusDocument
+Bahamas	is an instance of	country
+MobileComputingTopic	disjoint with	RadioCommunicationsTopic
+TestOnlyTopic	disjoint with	WirelessCommunicationsTopic
+Slovenia	is an instance of	country
+edasAuthor	disjoint with	SessionChair
+confirmed_by	has domain in	Event
+used_by	has domain in	cocusDocument
+CADTopic	disjoint with	CommunicationsTopic
+use	is inverse of	used_by
+ConferenceEvent	disjoint with	ReviewRating
+edasConference	disjoint with	ReviewQuestion
+Review_Form_Setup	is subclass of	Review_Form
+edasPerson	disjoint with	ReviewQuestion
+CommunicationsTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+RadioCommunicationsTopic	disjoint with	WirelessCommunicationsTopic
+PerformanceTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+CADTopic	disjoint with	MicroelectronicsTopic
+Programme	disjoint with	SlideSet
+RejectRating	disjoint with	WeekRejectRating
+ComputerNetworksTopic	disjoint with	MobileComputingTopic
+edasConference	is subclass of	what hasName of exactly one rdfs:Literal
+ComputerNetworksManagementTopic	is subclass of	ComputerNetworksTopic
+Tajikistan	is an instance of	country
+hasLocation	has domain in	ConferenceEvent
+Uruguay	is an instance of	country
+hasLocation	range in	Place
+Rejection_Email	is subclass of	Email
+TravelGrant	is subclass of	Sponsorship
+Ecuador	is an instance of	country
+AcademiaOrganization	disjoint with	GovernmentOrganization
+forEvent	is inverse of	hasCall
+Spain	is an instance of	country
+ComputerNetworksMeasurementsTopic	is subclass of	ComputerNetworksTopic
+register	range in	Account
+SatelliteAndSpaceCommunicationsTopic	disjoint with	TestOnlyTopic
+hasMenu	is inverse of	isMenuOf
+Qatar	is an instance of	country
+Detail	is subclass of	owl:Thing
+edasWorkshop	is subclass of	AcademicEvent
+cocusAuthor	is subclass of	User
+approve	is inverse of	approved_by
+take_part_in	range in	Event
+ComputerArchitectureTopic	disjoint with	PowerlineTransmissionTopic
+Full_Paper	is subclass of	cocusPaper
+edasConference	disjoint with	PersonalHistory
+Programme	is subclass of	edasDocument
+MicroelectronicsTopic	disjoint with	SignalProcessingTopic
+Country	disjoint with	ReviewRating
+hasRating	range in	ReviewRating
+confirmed_by	range in	Approval_Email
+hasCostCurrency	range in	xsd:string
+OperatingTopicsystems	disjoint with	WirelessCommunicationsTopic
+AcceptedPaper	is subclass of	edasPaper
+Bahrain	is an instance of	country
+Denmark	is an instance of	country
+edasPaper	disjoint with	SlideSet
+edasPerson	disjoint with	ReviewRating
+hasProgramme	has domain in	ConferenceEvent
+Place	disjoint with	ReviewForm
+hasLastName	range in	xsd:string
+ComputerArchitectureTopic	disjoint with	OperatingTopicsystems
+cocusAuthor	is subclass of	who remove some cocusAuthor
+CADTopic	disjoint with	MobileComputingTopic
+Place	disjoint with	ReviewRating
+AntennasTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+edasPaper	disjoint with	edasReview
+ContactInformation	disjoint with	PersonalHistory
+ConferenceSession	disjoint with	ReviewQuestion
+submited__by	has domain in	cocusDocument
+manuscriptDueOn	has domain in	edasConference
+Registration	is subclass of	what has_result of some User
+WithdrawnPaper	is subclass of	edasPaper
+CADTopic	disjoint with	OperatingTopicsystems
+CommunicationTheoryTopic	disjoint with	MobileComputingTopic
+France	is an instance of	country
+Nicaragua	is an instance of	country
+CommunicationTheoryTopic	disjoint with	TestOnlyTopic
+ContactInformation	disjoint with	ReviewQuestion
+MobileComputingTopic	disjoint with	PerformanceTopic
+SouthAfrica	is an instance of	country
+ReviewQuestion	disjoint with	ReviewRating
+NumericalReviewQuestion	is subclass of	ReviewQuestion
+execute	has domain in	cocusPerson
+Call	disjoint with	ContactInformation
+isTopicOf	has domain in	Topic
+CADTopic	disjoint with	CryptographyTopic
+inverse_of_add	has domain in	cocusPerson
+hasCity	has domain in	ContactInformation
+Call	disjoint with	Sponsorship
+hasPostalCode	range in	xsd:string
+Israel	is an instance of	country
+remove	has domain in	cocusPerson
+CommunicationsTopic	disjoint with	OperatingTopicsystems
+edasDocument	disjoint with	Place
+Brazil	is an instance of	country
+AntennasTopic	disjoint with	PerformanceTopic
+ConferenceSession	disjoint with	edasPerson
+Event_Setup	is equivalent to	what define some Event
+PersonalHistory	disjoint with	Place
+Role	is subclass of	what is assigned_by some Administrator
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksEnterpriseTopic
+ConferenceEvent	disjoint with	Organization
+ComputerNetworksEnterpriseTopic	disjoint with	ComputerNetworksMeasurementsTopic
+send	has domain in	cocusPerson
+CryptographyTopic	disjoint with	WirelessCommunicationsTopic
+CommunicationTheoryTopic	is subclass of	Topic
+MicroelectronicsTopic	disjoint with	SecurityTopic
+isMemberOf	range in	edasConference
+NorthKorea	is an instance of	country
+Committee	is subclass of	User
+removed_by	has domain in	cocusDocument or cocusPerson
+RadioCommunicationsTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+conists_of	has domain in	Event
+ComputerNetworksEnterpriseTopic	disjoint with	ComputerNetworksManagementTopic
+CADTopic	disjoint with	TestOnlyTopic
+Libya	is an instance of	country
+sent_by	range in	cocusPerson
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksMeasurementsTopic
+MealMenu	is subclass of	edasDocument
+modified_by	is inverse of	modify
+ComputerNetworksAapplicationsTopic	disjoint with	ComputerNetworksManagementTopic
+ComputerArchitectureTopic	disjoint with	MicroelectronicsTopic
+relatedToEvent	has domain in	AcceptedPaper
+isProviderOf	range in	Sponsorship
+MicroelectronicsTopic	disjoint with	MultimediaTopic
+AccpetIfRoomRating	disjoint with	WeekRejectRating
+PowerlineTransmissionTopic	disjoint with	TestOnlyTopic
+CommunicationsTopic	disjoint with	ComputerNetworksTopic
+AcademiaOrganization	disjoint with	NGO
+ComputerNetworksTopic	disjoint with	TestOnlyTopic
+ParallelAndDistributedComputingTopic	disjoint with	RadioCommunicationsTopic
+Ethiopia	is an instance of	country
+ComputerNetworksMeasurementsTopic	disjoint with	ComputerNetworksSwitchingTopic
+Uganda	is an instance of	country
+Call	disjoint with	edasDocument
+hasStartDateTime	has domain in	ConferenceEvent
+MicroelectronicsTopic	disjoint with	PerformanceTopic
+Country	disjoint with	edasPerson
+relatedToEvent	range in	PaperPresentation
+Venezuela	is an instance of	country
+take_part_in	has domain in	cocusPerson
+AcceptRating	disjoint with	WeekRejectRating
+attendeeAt	range in	ConferenceEvent
+ConferenceEvent	disjoint with	Country
+MobileComputingTopic	disjoint with	SecurityTopic
+attendeeAt	has domain in	edasPerson
+MicroelectronicsTopic	disjoint with	ParallelAndDistributedComputingTopic
+startDate	has domain in	edasConference
+Ghana	is an instance of	country
+SingleLevelConference	is equivalent to	edasConference and not TwoLevelConference and what hasMember of only edasPerson
+CommunicationTheoryTopic	disjoint with	OperatingTopicsystems
+CommunicationTheoryTopic	disjoint with	PerformanceTopic
+Thailand	is an instance of	country
+RejectedPaper	is subclass of	edasPaper
+isMenuOf	has domain in	MealMenu
+isReviewHistoryOf	has domain in	PersonalReviewHistory
+Country	disjoint with	Place
+Organization	disjoint with	Place
+Assistance	is subclass of	Help_Request
+ReviewForm	disjoint with	Topic
+CADTopic	disjoint with	SecurityTopic
+recieve	is inverse of	recieved_by
+Bangladesh	is an instance of	country
+MultimediaTopic	disjoint with	ParallelAndDistributedComputingTopic
+ConferenceEvent	disjoint with	edasDocument
+Organization	disjoint with	Sponsorship
+isProviderOf	is inverse of	providedBy
+edasPerson	disjoint with	Place
+initiates	is inverse of	isInitiatedBy
+hasMember	range in	edasPerson
+Organization	disjoint with	Topic
+PerformanceTopic	disjoint with	RadioCommunicationsTopic
+CommunicationsTopic	disjoint with	ParallelAndDistributedComputingTopic
+ComputerNetworksMeasurements Topic	disjoint with	ComputerNetworksOpticalTopic
+MicroelectronicsTopic	disjoint with	OperatingTopicsystems
+Place	disjoint with	Sponsorship
+SanMarino	is an instance of	country
+ConferenceSession	disjoint with	Topic
+MultimediaTopic	disjoint with	OperatingTopicsystems
+has_result	has domain in	Activity
+Event	is subclass of	what is confirmed_by some Approval_Email
+ConferenceSession	disjoint with	ContactInformation
+ComputerNetworksManagementTopic	disjoint with	ComputerNetworksMeasurementsTopic
+ConferenceSession	disjoint with	PersonalHistory
+use	has domain in	cocusPerson
+hasCostAmount	range in	xsd:int
+ComputerArchitectureTopic	disjoint with	ParallelAndDistributedComputingTopic
+hasPostalCode	has domain in	ContactInformation
+cocusAuthor	is subclass of	who recieve some Approval_Email or Rejection_Email
+MultimediaTopic	is subclass of	Topic
+hasRelatedPaper	range in	edasPaper
+Role	is subclass of	owl:Thing
+ConferenceChair	is subclass of	edasPerson
+hasRelatedPaper	has domain in	edasAuthor
+hasReviewHistory	has domain in	Reviewer
+ComputerNetworksOpticalTopic	disjoint with	ComputerNetworksSwitchingTopic
+DiningPlace	is subclass of	Place
+edasConference	disjoint with	Country
+Corresponding_Author	is subclass of	cocusAuthor
+ConferenceEvent	disjoint with	PersonalHistory
+cocusWorkshop	is equivalent to	edasWorkshop
+recieve	has domain in	User
+Country	disjoint with	PersonalHistory
+Nigeria	is an instance of	country
+edasPaper	disjoint with	Programme
+Head_Role	is subclass of	Role
+ComputerArchitectureTopic	disjoint with	RadioCommunicationsTopic
+add	has domain in	cocusPerson
+ConferenceSession	disjoint with	Organization
+AccpetIfRoomRating	disjoint with	RejectRating
+hasSubmissionInstructions	has domain in	Call
+isWrittenBy	has domain in	edasPaper
+Germany	is an instance of	country
+isTopicOf	range in	edasConference or edasPaper
+PaperPresentation	disjoint with	edasWorkshop
+CryptographyTopic	disjoint with	PerformanceTopic
+Administrator	is subclass of	who execute some Event_Approval
+Submission	is subclass of	cocusDocument
+cocusAuthor	is subclass of	who add some cocusAuthor
+ContactInformation	disjoint with	ReviewForm
+Korea	is an instance of	country
+Yemen	is an instance of	country
+MicroelectronicsTopic	is subclass of	Topic
+Malaysia	is an instance of	country
+Email	is subclass of	cocusDocument
+CommunicationTheoryTopic	disjoint with	ComputerArchitectureTopic
+Request	is subclass of	Activity
+PerformanceTopic	is subclass of	Topic
+confirm	is inverse of	confirmed_by
+hasTopic	range in	Topic
+MultimediaTopic	disjoint with	WirelessCommunicationsTopic
+Invited_Paper	is subclass of	cocusPaper
+RatedPapers	is equivalent to	what hasRating of some ReviewRating
+AcceptRating	is subclass of	ReviewRating
+hasProgramme	range in	Programme
+Madagascar	is an instance of	country
+WeekRejectRating	is subclass of	ReviewRating
+MealMenu	disjoint with	Programme
+edasAuthor	disjoint with	TPCMember
+CommunicationsTopic	disjoint with	TestOnlyTopic
+ConferenceDinner	is subclass of	MealEvent
+recieved_by	has domain in	cocusDocument
+modify	has domain in	cocusPerson
+edasConference	disjoint with	ReviewRating
+Jordan	is an instance of	country
+isMemberOf	has domain in	edasPerson
+edasConference	is subclass of	what hasTopic of exactly one owl:Thing
+Canada	is an instance of	country
+Finland	is an instance of	country
+Event_Creation	is subclass of	what has_result of some Event
+Country	disjoint with	Sponsorship
+hasMenu	range in	MealMenu
+Call	disjoint with	ConferenceEvent
+Estonia	is an instance of	country
+isMenuOf	range in	MealEvent
+Misc	is subclass of	Help_Request
+hasCostCurrency	has domain in	Sponsorship
+ParallelAndDistributedComputingTopic	disjoint with	PerformanceTopic
+Call	disjoint with	edasConference
+Netherlands	is an instance of	country
+AcademicEvent	is subclass of	ConferenceEvent
+MedicineTopic	disjoint with	SecurityTopic
+SignalProcessingTopic	is subclass of	Topic
+ReviewQuestion	disjoint with	Topic
+CommunicationTheoryTopic	disjoint with	RadioCommunicationsTopic
+MicroelectronicsTopic	disjoint with	RadioCommunicationsTopic
+OrganizationalMeeting	disjoint with	edasWorkshop
+CryptographyTopic	disjoint with	OperatingTopicsystems
+ComputerNetworksTopic	disjoint with	PowerlineTransmissionTopic
+ComputerNetworksSensorTopic	disjoint with	ComputerNetworksSwitchingTopic
+forEvent	range in	AcademicEvent
+Call	disjoint with	ReviewQuestion
+AcademiaOrganization	disjoint with	IndustryOrganization
+CommunicationTheoryTopic	disjoint with	PowerlineTransmissionTopic
+ConferenceEvent	disjoint with	ReviewForm
+ComputerNetworksSecurityTopic	is subclass of	ComputerNetworksTopic
+Ireland	is an instance of	country
+CommunicationsTopic	disjoint with	MobileComputingTopic
+CommunicationsTopic	disjoint with	SignalProcessingTopic
+FreeTimeBreak	is subclass of	BreakEvent
+MedicineTopic	disjoint with	RadioCommunicationsTopic
+PublishedPaper	is subclass of	edasPaper
+Call	disjoint with	PersonalHistory
+Russia	is an instance of	country
+remove	range in	cocusDocument or cocusPerson
+DemocraticRepublicOfCongo	is an instance of	country
+edasConference	disjoint with	edasDocument
+isReviewing	range in	edasPaper
+ContactInformation	disjoint with	edasDocument
+MedicineTopic	disjoint with	ParallelAndDistributedComputingTopic
+created_by	has domain in	cocusDocument or Event
+PowerlineTransmissionTopic	is subclass of	Topic
+hasCall	has domain in	AcademicEvent
+Submission_Template	is subclass of	Event_Setup
+User	is subclass of	who send some Help_Request
+assigned_by	has domain in	Role
+hasBiography	range in	xsd:string
+forEvent	has domain in	Call
+CommunicationsTopic	disjoint with	MedicineTopic
+edasConference	disjoint with	edasPaper
+ComputerNetworksTopic	is subclass of	Topic
+MedicineTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+confirm	range in	Event
+CADTopic	disjoint with	PowerlineTransmissionTopic
+Azerbaijan	is an instance of	country
+CommunicationsTopic	disjoint with	CryptographyTopic
+remove	is inverse of	removed_by
+hasEmail	has domain in	ContactInformation or edasPerson
+ReviewRating	disjoint with	Sponsorship
+isLocationOf	range in	ConferenceEvent
+ParallelAndDistributedComputing Topic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+isProviderOf	has domain in	Organization
+ComputerArchitectureTopic	disjoint with	TestOnlyTopic
+ComputerArchitectureTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+ContactInformation	disjoint with	Topic
+Organization	disjoint with	ReviewRating
+OperatingTopicsystems	disjoint with	ParallelAndDistributedComputingTopic
+providedBy	range in	Organization
+hasSubmissionDeadline	range in	xsd:dateTime
+assign	has domain in	Administrator
+approved_by	has domain in	Event
+CocosIslands	is an instance of	country
+IndustryOrganization	disjoint with	NGO
+AntennasTopic	disjoint with	CryptographyTopic
+OperatingTopicsystems	disjoint with	SignalProcessingTopic
+Zimbabwe	is an instance of	country
+edasConference	disjoint with	Organization
+Symposium	is subclass of	Event
+MeetingRoomPlace	is subclass of	Place
+AntennasTopic	disjoint with	MultimediaTopic
+cocusDocument	is equivalent to	what is created_by some cocusPerson
+ComputerArchitectureTopic	disjoint with	PerformanceTopic
+Reviewer	is equivalent to	edasPerson and who isReviewing some edasPaper
+Poland	is an instance of	country
+ReviewRating	is equivalent to	AcceptRating or AccpetIfRoomRating or RejectRating or WeekRejectRating
+Short_Paper	is subclass of	cocusPaper
+User	is subclass of	cocusPerson
+isReviewedBy	is inverse of	isReviewing
+CommunicationTheoryTopic	disjoint with	CryptographyTopic
+Pakistan	is an instance of	country
+edasConference	disjoint with	Topic
+ConferenceEvent	is subclass of	AcademicEvent
+Georgia	is an instance of	country
+TPCMember	is subclass of	edasPerson
+hasRelatedPaper	is inverse of	isWrittenBy
+Person	disjoint with	ReviewForm
+ConferenceSession	disjoint with	Sponsorship
+edasConference	is subclass of	what has manuscriptDueOn the date of at most one rdfs:Literal
+ParallelAndDistributedComputingTopic	disjoint with	SecurityTopic
+Japan	is an instance of	country
+ClosingTalk	is subclass of	TalkEvent
+MedicineTopic	disjoint with	MicroelectronicsTopic
+SecurityTopic	disjoint with	WirelessCommunicationsTopic
+Event	is subclass of	what is conists_of some Event_Tracks
+GovernmentOrganization	disjoint with	IndustryOrganization
+CommunicationTheoryTopic	disjoint with	SatelliteAndSpaceCommunicationsTopic
+hasAttendee	has domain in	ConferenceEvent

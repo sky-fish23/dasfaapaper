@@ -1,0 +1,92 @@
+extindividual61 Type Course
+extindividual41 SameAs extindividual42
+hasDoctoralDegreeFrom SubPropertyOf: inverse (hasAlumnus)
+extindividual38 teacherOf extindividual37
+extindividual52 worksFor extindividual53
+SportsFan SubclassOf Person and (like some Sports)
+extindividual64 isMemberOf extindividual65
+extindividual48 Type owl:Thing
+extindividual49 Type Employee
+extindividual49 isMemberOf extindividual50
+extindividual65 hasMember extindividual66
+hasMasterDegreeFrom SubPropertyOf: inverse (hasAlumnus)
+extindividual60 teacherOf extindividual58
+Employee SubclassOf Person
+extindividual43 isTaughtBy extindividual45
+extindividual44 SameAs extindividual45
+Student SubclassOf Person
+extindividual58 Type Course
+owl:topObjectProperty InverseOf owl:topObjectProperty
+extindividual39 SameAs extindividual38
+GraduateStudent SubclassOf Student
+extindividual43 Type Course
+extindividual45 Type Faculty
+extindividual37 Type Course
+Director SubclassOf Employee
+ResearchAssistant SubclassOf Person and (worksFor some Organization)
+isFriendOf InverseOf isFriendOf 
+extindividual38 SameAs extindividual39
+Functional: isTaughtBy
+extindividual47 Type Faculty
+extindividual53 hasMember extindividual52
+extindividual50 hasMember extindividual49
+extindividual52 isMemberOf extindividual53
+extindividual64 SameAs extindividual66
+SportsLover SubclassOf Person and (like min 1 owl:Thing)
+isCrazyAbout SubPropertyOf: love
+extindividual56 Type Faculty
+enrollIn SubPropertyOf: inverse (hasStudent)
+extindividual64 Type Employee
+extindividual44 teacherOf extindividual43
+extindividual39 teacherOf extindividual37
+extindividual39 Type Faculty
+extindividual45 SameAs extindividual44
+extindividual65 hasMember extindividual64
+extindividual52 Type Employee
+extindividual43 isTaughtBy extindividual44
+extindividual54 Type owl:Thing
+extindividual41 teacherOf extindividual40
+GraduateStudent SubclassOf Person and (isStudentOf some Organization)
+extindividual56 teacherOf extindividual55
+extindividual65 Type Organization
+SportsFan SubclassOf SportsLover
+extindividual63 Type Faculty
+extindividual53 Type Organization
+extindividual49 worksFor extindividual50
+extindividual66 isHeadOf extindividual65
+extindividual41 Type Faculty
+extindividual62 Type owl:Thing
+extindividual64 isHeadOf extindividual65
+extindividual64 worksFor extindividual65
+extindividual42 Type Faculty
+hasSameHomeTownWith inverseOf hasSameHomeTownWith
+extindividual44 DifferentFrom extindividual45
+TeachingAssistant SubclassOf Person
+extindividual47 teacherOf extindividual46
+extindividual38 Type Faculty
+hasStudent SubPropertyOf: inverse (isMemberOf)
+extindividual51 Type owl:Thing
+extindividual50 Type Organization
+SportsLover SubclassOf PeopleWithHobby
+enrolln Domain Student
+extindividual46 Type Course
+extindividual40 Type Course
+hasUndergraduateDegreeFrom SubPropertyOf: inverse (hasAlumnus)
+extindividual42 SameAs extindividual41
+PeopleWithHobby SubclassOf Person
+extindividual66 SameAs extindividual64
+Director SubclassOf Person and (worksFor some Organization)
+extindividual66 isMemberOf extindividual65
+extindividual57 Type owl:Thing
+extindividual45 teacherOf extindividual43
+InverseFunctional: isHeadOf
+extindividual60 Type Faculty
+extindividual55 Type Course
+extindividual63 teacheOf extindividual61
+extindividual44 Type Faculty
+ResearchAssistant SubclassOf Emploee
+extindividual42 teacherOf extindividual40
+extindividual66 worksfor extindividual65
+extindividual64 DifferentFrom extindividual66
+isStudentOf SubPropertyOf: inverse (hasMember)
+extindividual66 Type Employee

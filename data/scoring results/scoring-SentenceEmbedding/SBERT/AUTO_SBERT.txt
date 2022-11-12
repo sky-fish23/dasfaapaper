@@ -1,0 +1,78 @@
+IJCAI19 mc score:
+IJCAI19 mc K1 score: 5484
+IJCAI19 mc K2 score: 5484
+IJCAI19 mc K3 score: 5484
+IJCAI19 mc K4 score: 5484
+IJCAI19 mc K5 score: 5475
+IJCAI19 mc K6 score: 4919
+
+
+Cosine:
+Method 1
+M1 K1 score: 6821.539251233616
+M1 K2 score: 6821.372257119473
+M1 K3 score: 6821.3712452285135
+M1 K4 score: 6821.893771433667
+M1 K5 score: 6814.356270262132
+M1 K6 score: 6086.437367753455
+
+
+Method 2
+M2 K1 score: 8760.282191165821
+M2 K2 score: 8760.182204691113
+M2 K3 score: 8759.63749412469
+M2 K4 score: 8760.090569171956
+M2 K5 score: 8745.168827563555
+M2 K6 score: 7777.360514846475
+
+
+Euclid
+Method 1 K1  score: 6511.242037183248
+Method 1 K2  score: 6511.245829650622
+Method 1 K3  score: 6511.23829757637
+Method 1 K4  score: 6511.3489148336275
+Method 1 K5  score: 6504.3477293710175
+Method 1 K6  score: 5746.1241757313055
+Method 2 K1  score: 7932.273831979773
+Method 2 K2  score: 7932.252642756624
+Method 2 K3  score: 7931.558401284004
+Method 2 K4  score: 7929.968574063069
+Method 2 K5  score: 7917.556441171139
+Method 2 K6  score: 7039.945062465961
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############################
+以下内容不用管
+##############################
+Time
+Method1 K1: 78631.98381996155s
+Method2 K1: 83494.83679413795s
+

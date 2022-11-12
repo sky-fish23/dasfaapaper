@@ -1,0 +1,35 @@
+alter encode exp.
+Auto Sentence-BERT 
+
+Cosine
+
+Method 1 K1  score: 8793.9541015625
+Method 1 K2  score: 8791.4970703125
+Method 1 K3  score: 8791.2939453125
+Method 1 K4  score: 8791.5458984375
+Method 1 K5  score: 8782.2705078125
+Method 1 K6  score: 7774.94921875
+Method 2 K1  score: 9061.314453125
+Method 2 K2  score: 9832.58203125
+Method 2 K3  score: 9832.181640625
+Method 2 K4  score: 9833.703125
+Method 2 K5  score: 9815.490234375
+Method 2 K6  score: 8994.3515625
+
+
+Euclid
+
+Method 1 K1  score: 6511.242037183248
+Method 1 K2  score: 6511.245829650622
+Method 1 K3  score: 6511.23829757637
+Method 1 K4  score: 6511.3489148336275
+Method 1 K5  score: 6504.3477293710175
+Method 1 K6  score: 5746.1241757313055
+
+Method 2 K1  score: 7932.273831979773
+Method 2 K2  score: 7932.252642756624
+Method 2 K3  score: 7931.558401284004
+Method 2 K4  score: 7929.968574063069
+Method 2 K5  score: 7917.556441171139
+Method 2 K6  score: 7039.945062465961
+

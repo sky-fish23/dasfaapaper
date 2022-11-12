@@ -1,0 +1,42 @@
+Jena_ARQ Type LicenseModel
+OntologySyntax SubClassOf documentation max 1 rdfs:Literal
+Jena-ARQObject property assertion:supportsViewDefinitionLanguage ARQ-Language
+OntologyTask SubClassOf documentation max 1 rdfs:Literal
+RedLand-Rasqal Object property assertion: supportsViewDefinitionLanguage SPARQL
+Jena_ARQ Type OntologyLanguage
+DataPropertyDomain documentation KnowledgeRepresentationParadigm or LicenseModel or OntologyEngineeringMethodology or OntologyEngineeringTool or OntologyLanguage or OntologySyntax or OntologyTask or OntologyType or aOntology
+owl:topObjectProperty inverse of owl:topObjectProperty
+Jena_ARQ Type KnowledgeRepresentationParadigm
+OntologyEngineeringMethodology SubClassOf documentation max 1 rdfs:Literal
+SPARQL Object property assertion: supportedByViewGenerationEngine Jena-ARQ
+RedLand-Rasqal Object property assertion:  supportsViewDefinitionLanguage RDQL
+Virtuoso Object property assertion: supportsViewDefinitionLanguage vSPARQL
+Jena_ARQ Type FormalityLevel
+ARQ-Language Object property assertion:supportedByViewGenerationEngine Jena-ARQ
+LicenseModel SubClassOf documentation max 1 rdfs:Literal
+Virtuoso Type aOntology
+SPARQL Object property assertion: supportedByViewGenerationEngine RedLand-Rasqal
+KnowledgeRepresentationParadigm SubClassOf documentation max 1 rdfs:Literal
+RDQLObject property assertion: supportedByViewGenerationEngine Jena-ARQ
+Jena-ARQObject property assertion:supportsViewDefinitionLanguage RDQL
+Jena_ARQ Type aOntology
+Virtuoso Type OntologyLanguage
+Virtuoso Type LicenseModel
+vSPARQL Object property assertion: supportedByViewGenerationEngine Virtuoso
+OntologyType SubClassOf documentation max 1 rdfs:Literal
+OntologyEngineeringTool SubClassOf documentation max 1 rdfs:Literal
+SPARQL Object property assertion: supportedByViewGenerationEngine Virtuoso
+SPARQL Object property assertion: supportedByViewGenerationEngine Sesame-SPARQL_Engine
+Virtuoso Type OntologyTask
+Virtuoso Type KnowledgeRepresentationParadigm
+Virtuoso Type Organisation
+RDQLObject property assertion: supportedByViewGenerationEngine RedLand-Rasqal
+Jena_ARQ Type Organisation
+Sesame-SPARQL_Engine Object property assertion: supportsViewDefinitionLanguageSPARQL
+Jena-ARQObject property assertion:supportsViewDefinitionLanguage SPARQL
+Jena_ARQ Type OntologyTask
+OntologyLanguage SubClassOf documentation max 1 rdfs:Literal
+aOntology SubClassOf documentation max 1 rdfs:Literal
+Virtuoso Object property assertion: supportsViewDefinitionLanguage SPARQL
+SPARQL Object property assertion: supportedByViewGenerationEngine Pellet
+PelletObject property assertion:supportsViewDefinitionLanguage SPARQL
